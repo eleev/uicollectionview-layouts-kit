@@ -10,22 +10,116 @@
 		A9623BCE208478BB00E37FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCD208478BB00E37FFD /* AppDelegate.swift */; };
 		A9623BD0208478BB00E37FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCF208478BB00E37FFD /* ViewController.swift */; };
 		A9623BD3208478BB00E37FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BD1208478BB00E37FFD /* Main.storyboard */; };
-		A9623BD5208478BB00E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623BD4208478BB00E37FFD /* Assets.xcassets */; };
 		A9623BD8208478BB00E37FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BD6208478BB00E37FFD /* LaunchScreen.storyboard */; };
+		A9623BE6208478D900E37FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BE5208478D900E37FFD /* AppDelegate.swift */; };
+		A9623BEB208478D900E37FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BE9208478D900E37FFD /* Main.storyboard */; };
+		A9623BED208478D900E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623BEC208478D900E37FFD /* Assets.xcassets */; };
+		A9623BF0208478D900E37FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BEE208478D900E37FFD /* LaunchScreen.storyboard */; };
+		A9623BFB208478D900E37FFD /* pinterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BFA208478D900E37FFD /* pinterestTests.swift */; };
+		A9623C06208478D900E37FFD /* pinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C05208478D900E37FFD /* pinterestUITests.swift */; };
+		A9623C17208478F200E37FFD /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A9623C18208478F200E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A9623C19208478F200E37FFD /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A9623C1A208478F200E37FFD /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A9623C1B208478F600E37FFD /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A9623C1C208478F700E37FFD /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A9623C1D208478F800E37FFD /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A9623C1E208478FA00E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A9623C1F208478FA00E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A9623C20208478FB00E37FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A9623C21208478FD00E37FFD /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A9623C22208478FE00E37FFD /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A9623C23208478FE00E37FFD /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A9623C2720847B5F00E37FFD /* ComicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C2620847B5F00E37FFD /* ComicsCell.swift */; };
+		A9623C2A2084C2F800E37FFD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A9623C2B2084C32700E37FFD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A9623C2C2084C32800E37FFD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A9623C2D2084C32800E37FFD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A9623C2F2084CCC400E37FFD /* ComicCellAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C2E2084CCC400E37FFD /* ComicCellAdapter.swift */; };
+		A9623C312084CD3200E37FFD /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A9623C322084CDE100E37FFD /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A9623C332084CDE100E37FFD /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A9623C342084CDE200E37FFD /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A9623C352084CDE500E37FFD /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A9623C362084CDE500E37FFD /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A9623C372084CDE500E37FFD /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A9623C392084D13900E37FFD /* ComicsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C382084D13900E37FFD /* ComicsCollectionViewController.swift */; };
+		A9623C3B2084D6C400E37FFD /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C3A2084D6C400E37FFD /* PinterestLayout.swift */; };
+		A9623C3D2084ECE900E37FFD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9623C3C2084ECE900E37FFD /* .gitignore */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9623BF7208478D900E37FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9623BC2208478BB00E37FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9623BE2208478D900E37FFD;
+			remoteInfo = pinterest;
+		};
+		A9623C02208478D900E37FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9623BC2208478BB00E37FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9623BE2208478D900E37FFD;
+			remoteInfo = pinterest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-flow-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9623BCD208478BB00E37FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9623BCF208478BB00E37FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9623BD2208478BB00E37FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9623BD4208478BB00E37FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9623BD7208478BB00E37FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9623BD9208478BB00E37FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9623BE3208478D900E37FFD /* pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9623BE5208478D900E37FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9623BEA208478D900E37FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9623BEC208478D900E37FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9623BEF208478D900E37FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9623BF1208478D900E37FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9623BF6208478D900E37FFD /* pinterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9623BFA208478D900E37FFD /* pinterestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestTests.swift; sourceTree = "<group>"; };
+		A9623BFC208478D900E37FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9623C01208478D900E37FFD /* pinterestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9623C05208478D900E37FFD /* pinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestUITests.swift; sourceTree = "<group>"; };
+		A9623C07208478DA00E37FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9623C12208478F200E37FFD /* ComicsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ComicsData.plist; sourceTree = "<group>"; };
+		A9623C13208478F200E37FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9623C14208478F200E37FFD /* Comics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Comics.xcassets; sourceTree = "<group>"; };
+		A9623C16208478F200E37FFD /* Comics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		A9623C2620847B5F00E37FFD /* ComicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsCell.swift; sourceTree = "<group>"; };
+		A9623C292084C2F800E37FFD /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		A9623C2E2084CCC400E37FFD /* ComicCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCellAdapter.swift; sourceTree = "<group>"; };
+		A9623C302084CD3200E37FFD /* ComicsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsManager.swift; sourceTree = "<group>"; };
+		A9623C382084D13900E37FFD /* ComicsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsCollectionViewController.swift; sourceTree = "<group>"; };
+		A9623C3A2084D6C400E37FFD /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		A9623C3C2084ECE900E37FFD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A9623BC7208478BB00E37FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BE0208478D900E37FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BF3208478D900E37FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BFE208478D900E37FFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +132,11 @@
 		A9623BC1208478BB00E37FFD = {
 			isa = PBXGroup;
 			children = (
+				A9623C3C2084ECE900E37FFD /* .gitignore */,
 				A9623BCC208478BB00E37FFD /* collection-flow-layout-ios */,
+				A9623BE4208478D900E37FFD /* pinterest */,
+				A9623BF9208478D900E37FFD /* pinterestTests */,
+				A9623C04208478D900E37FFD /* pinterestUITests */,
 				A9623BCB208478BB00E37FFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */,
+				A9623BE3208478D900E37FFD /* pinterest.app */,
+				A9623BF6208478D900E37FFD /* pinterestTests.xctest */,
+				A9623C01208478D900E37FFD /* pinterestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +155,77 @@
 		A9623BCC208478BB00E37FFD /* collection-flow-layout-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A9623C282084C2EE00E37FFD /* View */,
+				A9623C11208478F200E37FFD /* Assets */,
+				A9623C15208478F200E37FFD /* Models */,
 				A9623BCD208478BB00E37FFD /* AppDelegate.swift */,
 				A9623BCF208478BB00E37FFD /* ViewController.swift */,
 				A9623BD1208478BB00E37FFD /* Main.storyboard */,
-				A9623BD4208478BB00E37FFD /* Assets.xcassets */,
 				A9623BD6208478BB00E37FFD /* LaunchScreen.storyboard */,
 				A9623BD9208478BB00E37FFD /* Info.plist */,
 			);
 			path = "collection-flow-layout-ios";
+			sourceTree = "<group>";
+		};
+		A9623BE4208478D900E37FFD /* pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				A9623BE5208478D900E37FFD /* AppDelegate.swift */,
+				A9623C3A2084D6C400E37FFD /* PinterestLayout.swift */,
+				A9623C382084D13900E37FFD /* ComicsCollectionViewController.swift */,
+				A9623C2E2084CCC400E37FFD /* ComicCellAdapter.swift */,
+				A9623C2620847B5F00E37FFD /* ComicsCell.swift */,
+				A9623BE9208478D900E37FFD /* Main.storyboard */,
+				A9623BEC208478D900E37FFD /* Assets.xcassets */,
+				A9623BEE208478D900E37FFD /* LaunchScreen.storyboard */,
+				A9623BF1208478D900E37FFD /* Info.plist */,
+			);
+			path = pinterest;
+			sourceTree = "<group>";
+		};
+		A9623BF9208478D900E37FFD /* pinterestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9623BFA208478D900E37FFD /* pinterestTests.swift */,
+				A9623BFC208478D900E37FFD /* Info.plist */,
+			);
+			path = pinterestTests;
+			sourceTree = "<group>";
+		};
+		A9623C04208478D900E37FFD /* pinterestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9623C05208478D900E37FFD /* pinterestUITests.swift */,
+				A9623C07208478DA00E37FFD /* Info.plist */,
+			);
+			path = pinterestUITests;
+			sourceTree = "<group>";
+		};
+		A9623C11208478F200E37FFD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9623C12208478F200E37FFD /* ComicsData.plist */,
+				A9623C13208478F200E37FFD /* Assets.xcassets */,
+				A9623C14208478F200E37FFD /* Comics.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A9623C15208478F200E37FFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9623C16208478F200E37FFD /* Comics.swift */,
+				A9623C302084CD3200E37FFD /* ComicsManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9623C282084C2EE00E37FFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9623C292084C2F800E37FFD /* DesignableView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +248,59 @@
 			productReference = A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A9623BE2208478D900E37FFD /* pinterest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9623C08208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterest" */;
+			buildPhases = (
+				A9623BDF208478D900E37FFD /* Sources */,
+				A9623BE0208478D900E37FFD /* Frameworks */,
+				A9623BE1208478D900E37FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinterest;
+			productName = pinterest;
+			productReference = A9623BE3208478D900E37FFD /* pinterest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9623BF5208478D900E37FFD /* pinterestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9623C0B208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterestTests" */;
+			buildPhases = (
+				A9623BF2208478D900E37FFD /* Sources */,
+				A9623BF3208478D900E37FFD /* Frameworks */,
+				A9623BF4208478D900E37FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9623BF8208478D900E37FFD /* PBXTargetDependency */,
+			);
+			name = pinterestTests;
+			productName = pinterestTests;
+			productReference = A9623BF6208478D900E37FFD /* pinterestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9623C00208478D900E37FFD /* pinterestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9623C0E208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterestUITests" */;
+			buildPhases = (
+				A9623BFD208478D900E37FFD /* Sources */,
+				A9623BFE208478D900E37FFD /* Frameworks */,
+				A9623BFF208478D900E37FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9623C03208478D900E37FFD /* PBXTargetDependency */,
+			);
+			name = pinterestUITests;
+			productName = pinterestUITests;
+			productReference = A9623C01208478D900E37FFD /* pinterestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +313,17 @@
 				TargetAttributes = {
 					A9623BC9208478BB00E37FFD = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					A9623BE2208478D900E37FFD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A9623BF5208478D900E37FFD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A9623BE2208478D900E37FFD;
+					};
+					A9623C00208478D900E37FFD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A9623BE2208478D900E37FFD;
 					};
 				};
 			};
@@ -113,6 +341,9 @@
 			projectRoot = "";
 			targets = (
 				A9623BC9208478BB00E37FFD /* collection-flow-layout-ios */,
+				A9623BE2208478D900E37FFD /* pinterest */,
+				A9623BF5208478D900E37FFD /* pinterestTests */,
+				A9623C00208478D900E37FFD /* pinterestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +354,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9623BD8208478BB00E37FFD /* LaunchScreen.storyboard in Resources */,
-				A9623BD5208478BB00E37FFD /* Assets.xcassets in Resources */,
+				A9623C19208478F200E37FFD /* Comics.xcassets in Resources */,
+				A9623C17208478F200E37FFD /* ComicsData.plist in Resources */,
 				A9623BD3208478BB00E37FFD /* Main.storyboard in Resources */,
+				A9623C18208478F200E37FFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BE1208478D900E37FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623BF0208478D900E37FFD /* LaunchScreen.storyboard in Resources */,
+				A9623C3D2084ECE900E37FFD /* .gitignore in Resources */,
+				A9623C22208478FE00E37FFD /* Comics.xcassets in Resources */,
+				A9623BED208478D900E37FFD /* Assets.xcassets in Resources */,
+				A9623C1B208478F600E37FFD /* ComicsData.plist in Resources */,
+				A9623BEB208478D900E37FFD /* Main.storyboard in Resources */,
+				A9623C20208478FB00E37FFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BF4208478D900E37FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623C1E208478FA00E37FFD /* Assets.xcassets in Resources */,
+				A9623C23208478FE00E37FFD /* Comics.xcassets in Resources */,
+				A9623C1C208478F700E37FFD /* ComicsData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BFF208478D900E37FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623C1F208478FA00E37FFD /* Assets.xcassets in Resources */,
+				A9623C21208478FD00E37FFD /* Comics.xcassets in Resources */,
+				A9623C1D208478F800E37FFD /* ComicsData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +402,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9623C2A2084C2F800E37FFD /* DesignableView.swift in Sources */,
 				A9623BD0208478BB00E37FFD /* ViewController.swift in Sources */,
 				A9623BCE208478BB00E37FFD /* AppDelegate.swift in Sources */,
+				A9623C312084CD3200E37FFD /* ComicsManager.swift in Sources */,
+				A9623C1A208478F200E37FFD /* Comics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BDF208478D900E37FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623C2D2084C32800E37FFD /* DesignableView.swift in Sources */,
+				A9623C2720847B5F00E37FFD /* ComicsCell.swift in Sources */,
+				A9623C352084CDE500E37FFD /* ComicsManager.swift in Sources */,
+				A9623C2F2084CCC400E37FFD /* ComicCellAdapter.swift in Sources */,
+				A9623C3B2084D6C400E37FFD /* PinterestLayout.swift in Sources */,
+				A9623BE6208478D900E37FFD /* AppDelegate.swift in Sources */,
+				A9623C322084CDE100E37FFD /* Comics.swift in Sources */,
+				A9623C392084D13900E37FFD /* ComicsCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BF2208478D900E37FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623C2C2084C32800E37FFD /* DesignableView.swift in Sources */,
+				A9623BFB208478D900E37FFD /* pinterestTests.swift in Sources */,
+				A9623C332084CDE100E37FFD /* Comics.swift in Sources */,
+				A9623C362084CDE500E37FFD /* ComicsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9623BFD208478D900E37FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9623C2B2084C32700E37FFD /* DesignableView.swift in Sources */,
+				A9623C06208478D900E37FFD /* pinterestUITests.swift in Sources */,
+				A9623C342084CDE200E37FFD /* Comics.swift in Sources */,
+				A9623C372084CDE500E37FFD /* ComicsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9623BF8208478D900E37FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9623BE2208478D900E37FFD /* pinterest */;
+			targetProxy = A9623BF7208478D900E37FFD /* PBXContainerItemProxy */;
+		};
+		A9623C03208478D900E37FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9623BE2208478D900E37FFD /* pinterest */;
+			targetProxy = A9623C02208478D900E37FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A9623BD1208478BB00E37FFD /* Main.storyboard */ = {
@@ -155,6 +475,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9623BD7208478BB00E37FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9623BE9208478D900E37FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9623BEA208478D900E37FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9623BEE208478D900E37FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9623BEF208478D900E37FFD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +648,124 @@
 			};
 			name = Release;
 		};
+		A9623C09208478DA00E37FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9623C0A208478DA00E37FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9623C0C208478DA00E37FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest.app/pinterest";
+			};
+			name = Debug;
+		};
+		A9623C0D208478DA00E37FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest.app/pinterest";
+			};
+			name = Release;
+		};
+		A9623C0F208478DA00E37FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinterest;
+			};
+			name = Debug;
+		};
+		A9623C10208478DA00E37FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = pinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.io.pinterestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinterest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +783,33 @@
 			buildConfigurations = (
 				A9623BDD208478BB00E37FFD /* Debug */,
 				A9623BDE208478BB00E37FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9623C08208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9623C09208478DA00E37FFD /* Debug */,
+				A9623C0A208478DA00E37FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9623C0B208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9623C0C208478DA00E37FFD /* Debug */,
+				A9623C0D208478DA00E37FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9623C0E208478DA00E37FFD /* Build configuration list for PBXNativeTarget "pinterestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9623C0F208478DA00E37FFD /* Debug */,
+				A9623C10208478DA00E37FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
