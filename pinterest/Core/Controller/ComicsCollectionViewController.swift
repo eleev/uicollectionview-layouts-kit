@@ -56,6 +56,7 @@ class ComicsCollectionViewController: UICollectionViewController {
     }
 }
 
+// MARK: - Extension that adds conformance to UICollectionViewDelegateFlowLayout
 extension ComicsCollectionViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -65,10 +66,10 @@ extension ComicsCollectionViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+// MARK: - Extension that adds suport for PinterestLayoutDelegate protocol
 extension ComicsCollectionViewController: PinterestLayoutDelegate {
     
-    func collectionView(_ collectionView: UICollectionView,
-                        heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
         guard let comics = data?[indexPath.item] else {
             fatalError(#function + " could not retreive comics at index path : \(indexPath.item)")
         }
