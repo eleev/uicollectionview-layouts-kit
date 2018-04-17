@@ -8,7 +8,7 @@
 		<key>Comment</key>
 		<string>Action Comics</string>
 		<key>Cover</key>
-		<string>01</string>
+		<string>1-1</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -16,7 +16,7 @@
 		<key>Comment</key>
 		<string>Amazing Fantasy</string>
 		<key>Cover</key>
-		<string>02</string>
+		<string>1-2</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -24,7 +24,7 @@
 		<key>Comment</key>
 		<string>The Amazing Spider Man</string>
 		<key>Cover</key>
-		<string>03</string>
+		<string>1-3</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -32,7 +32,7 @@
 		<key>Comment</key>
 		<string>The Amazing Spider Man</string>
 		<key>Cover</key>
-		<string>04</string>
+		<string>1-4</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -40,7 +40,7 @@
 		<key>Comment</key>
 		<string>The Amazing Spider Man</string>
 		<key>Cover</key>
-		<string>05</string>
+		<string>1-5</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -48,7 +48,7 @@
 		<key>Comment</key>
 		<string>The Batman</string>
 		<key>Cover</key>
-		<string>06</string>
+		<string>1-6</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -56,7 +56,7 @@
 		<key>Comment</key>
 		<string>The Batman</string>
 		<key>Cover</key>
-		<string>07</string>
+		<string>1-7</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -64,7 +64,7 @@
 		<key>Comment</key>
 		<string>The Batman</string>
 		<key>Cover</key>
-		<string>08</string>
+		<string>1-8</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -72,7 +72,7 @@
 		<key>Comment</key>
 		<string>Batman</string>
 		<key>Cover</key>
-		<string>09</string>
+		<string>1-9</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -80,7 +80,7 @@
 		<key>Comment</key>
 		<string>Batman</string>
 		<key>Cover</key>
-		<string>10</string>
+		<string>1-10</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -88,7 +88,7 @@
 		<key>Comment</key>
 		<string>Batman</string>
 		<key>Cover</key>
-		<string>11</string>
+		<string>1-11</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -96,7 +96,7 @@
 		<key>Comment</key>
 		<string>Capitan America</string>
 		<key>Cover</key>
-		<string>12</string>
+		<string>1-12</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -104,7 +104,7 @@
 		<key>Comment</key>
 		<string>Crisys</string>
 		<key>Cover</key>
-		<string>13</string>
+		<string>1-13</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -112,7 +112,7 @@
 		<key>Comment</key>
 		<string>Crisys</string>
 		<key>Cover</key>
-		<string>13</string>
+		<string>1-14</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -120,7 +120,7 @@
 		<key>Comment</key>
 		<string>The Incredable Hulk!</string>
 		<key>Cover</key>
-		<string>14</string>
+		<string>1-15</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -128,7 +128,7 @@
 		<key>Comment</key>
 		<string>The Incredable Hulk!</string>
 		<key>Cover</key>
-		<string>15</string>
+		<string>1-16</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -136,7 +136,7 @@
 		<key>Comment</key>
 		<string>Sky-Ryder</string>
 		<key>Cover</key>
-		<string>16</string>
+		<string>1-17</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -144,7 +144,7 @@
 		<key>Comment</key>
 		<string>The Legend</string>
 		<key>Cover</key>
-		<string>17</string>
+		<string>1-18</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -152,7 +152,7 @@
 		<key>Comment</key>
 		<string>Super Man</string>
 		<key>Cover</key>
-		<string>18</string>
+		<string>1-19</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -160,7 +160,7 @@
 		<key>Comment</key>
 		<string>Crisys</string>
 		<key>Cover</key>
-		<string>19</string>
+		<string>1-20</string>
 	</dict>
 	<dict>
 		<key>Caption</key>
@@ -168,7 +168,7 @@
 		<key>Comment</key>
 		<string>The Incredable Hulk!</string>
 		<key>Cover</key>
-		<string>20</string>
+		<string>1-21</string>
 	</dict>
 </array>
 </plist>

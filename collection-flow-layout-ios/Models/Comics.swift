@@ -13,15 +13,17 @@ struct Comics {
     // MARK: - Properties
     
     var image: UIImage
+    var imageName: String
     var caption: String
     var comment: String
     
     // MARK: - Initializers
     
-    init(image: UIImage, caption: String, comment: String) {
+    init(image: UIImage, imageName: String, caption: String, comment: String) {
         self.image = image
         self.caption = caption
         self.comment = comment
+        self.imageName = imageName
     }
     
     init?(dictionary: [String : String]) {
@@ -29,7 +31,7 @@ struct Comics {
             debugPrint(#function + " one of the data properties from ComicData.plist could not be unwrapped or is nil")
             return nil
         }
-        self.init(image: cover, caption: caption, comment: comment)
+        self.init(image: cover, imageName: image, caption: caption, comment: comment)
     }
     
    

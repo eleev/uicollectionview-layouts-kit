@@ -31,6 +31,7 @@ struct ComicsManager {
                 covers += [comicCover]
             }
         }
+        
         return covers
     }
 }
