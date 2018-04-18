@@ -7,8 +7,16 @@ The assets used in this project were taken from the `Web`. Do not use them for c
 # Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
 
+<p align="center">
+    <img src="readme-assets/pinterest.gif" alt="Drawing" style="width: 500px;"/>
+</p>
+
 # Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. 
+
+<p align="center">
+    <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
+</p>
 
 
 # Author 

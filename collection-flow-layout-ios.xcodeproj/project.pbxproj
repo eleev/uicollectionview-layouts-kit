@@ -110,6 +110,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A94DD904208760680009F0A3 /* pinterest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinterest.gif; sourceTree = "<group>"; };
+		A94DD905208760690009F0A3 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-flow-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9623BCD208478BB00E37FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9623BCF208478BB00E37FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -212,9 +214,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94DD903208760520009F0A3 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				A94DD904208760680009F0A3 /* pinterest.gif */,
+				A94DD905208760690009F0A3 /* spinner.gif */,
+			);
+			path = "readme-assets";
+			sourceTree = "<group>";
+		};
 		A9623BC1208478BB00E37FFD = {
 			isa = PBXGroup;
 			children = (
+				A94DD903208760520009F0A3 /* readme-assets */,
 				A9623C3C2084ECE900E37FFD /* .gitignore */,
 				A9623BCC208478BB00E37FFD /* collection-flow-layout-ios */,
 				A9623BE4208478D900E37FFD /* pinterest */,
