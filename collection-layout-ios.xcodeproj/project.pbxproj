@@ -112,7 +112,7 @@
 /* Begin PBXFileReference section */
 		A94DD904208760680009F0A3 /* pinterest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinterest.gif; sourceTree = "<group>"; };
 		A94DD905208760690009F0A3 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
-		A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-flow-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9623BCA208478BB00E37FFD /* collection-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9623BCD208478BB00E37FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9623BCF208478BB00E37FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9623BD2208478BB00E37FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 			children = (
 				A94DD903208760520009F0A3 /* readme-assets */,
 				A9623C3C2084ECE900E37FFD /* .gitignore */,
-				A9623BCC208478BB00E37FFD /* collection-flow-layout-ios */,
+				A9623BCC208478BB00E37FFD /* collection-layout-ios */,
 				A9623BE4208478D900E37FFD /* pinterest */,
 				A9623BF9208478D900E37FFD /* pinterestTests */,
 				A9623C04208478D900E37FFD /* pinterestUITests */,
@@ -242,7 +242,7 @@
 		A9623BCB208478BB00E37FFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */,
+				A9623BCA208478BB00E37FFD /* collection-layout-ios.app */,
 				A9623BE3208478D900E37FFD /* pinterest.app */,
 				A9623BF6208478D900E37FFD /* pinterestTests.xctest */,
 				A9623C01208478D900E37FFD /* pinterestUITests.xctest */,
@@ -253,7 +253,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9623BCC208478BB00E37FFD /* collection-flow-layout-ios */ = {
+		A9623BCC208478BB00E37FFD /* collection-layout-ios */ = {
 			isa = PBXGroup;
 			children = (
 				A9623C282084C2EE00E37FFD /* View */,
@@ -265,7 +265,7 @@
 				A9623BD6208478BB00E37FFD /* LaunchScreen.storyboard */,
 				A9623BD9208478BB00E37FFD /* Info.plist */,
 			);
-			path = "collection-flow-layout-ios";
+			path = "collection-layout-ios";
 			sourceTree = "<group>";
 		};
 		A9623BE4208478D900E37FFD /* pinterest */ = {
@@ -448,9 +448,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9623BC9208478BB00E37FFD /* collection-flow-layout-ios */ = {
+		A9623BC9208478BB00E37FFD /* collection-layout-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9623BDC208478BB00E37FFD /* Build configuration list for PBXNativeTarget "collection-flow-layout-ios" */;
+			buildConfigurationList = A9623BDC208478BB00E37FFD /* Build configuration list for PBXNativeTarget "collection-layout-ios" */;
 			buildPhases = (
 				A9623BC6208478BB00E37FFD /* Sources */,
 				A9623BC7208478BB00E37FFD /* Frameworks */,
@@ -460,9 +460,9 @@
 			);
 			dependencies = (
 			);
-			name = "collection-flow-layout-ios";
+			name = "collection-layout-ios";
 			productName = "collection-flow-layout-ios";
-			productReference = A9623BCA208478BB00E37FFD /* collection-flow-layout-ios.app */;
+			productReference = A9623BCA208478BB00E37FFD /* collection-layout-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A9623BE2208478D900E37FFD /* pinterest */ = {
@@ -608,7 +608,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9623BC5208478BB00E37FFD /* Build configuration list for PBXProject "collection-flow-layout-ios" */;
+			buildConfigurationList = A9623BC5208478BB00E37FFD /* Build configuration list for PBXProject "collection-layout-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -621,7 +621,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9623BC9208478BB00E37FFD /* collection-flow-layout-ios */,
+				A9623BC9208478BB00E37FFD /* collection-layout-ios */,
 				A9623BE2208478D900E37FFD /* pinterest */,
 				A9623BF5208478D900E37FFD /* pinterestTests */,
 				A9623C00208478D900E37FFD /* pinterestUITests */,
@@ -1001,7 +1001,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "collection-flow-layout-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/collection-layout-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1021,7 +1021,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "collection-flow-layout-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/collection-layout-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1273,7 +1273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9623BC5208478BB00E37FFD /* Build configuration list for PBXProject "collection-flow-layout-ios" */ = {
+		A9623BC5208478BB00E37FFD /* Build configuration list for PBXProject "collection-layout-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9623BDA208478BB00E37FFD /* Debug */,
@@ -1282,7 +1282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9623BDC208478BB00E37FFD /* Build configuration list for PBXNativeTarget "collection-flow-layout-ios" */ = {
+		A9623BDC208478BB00E37FFD /* Build configuration list for PBXNativeTarget "collection-layout-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9623BDD208478BB00E37FFD /* Debug */,
