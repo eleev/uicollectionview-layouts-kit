@@ -31,11 +31,13 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
 # Demo 
 Wait a couple of seconds, so the `.gif` finishes downloading. 
 
-Horizontal             |  Vertical
-:-------------------------:|:-------------------------:
+## Horizontal 
 <p align="center">
     <img src="readme-assets/insta-grid_horizontal.gif" alt="Drawing" style="width: 500px;"/>
-</p>  |  <p align="center">
+</p>
+
+## Vertical
+<p align="center">
     <img src="readme-assets/insta-grid_vertical.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 ## Author
