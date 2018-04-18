@@ -1,5 +1,5 @@
 # collection-flow-layout-ios
-📐 A set of custom layouts for UICollectionView with examples
+📐 A set of custom layouts for UICollectionView with examples. The repo will have a collection of custom layouts for `UICollectionView` componnet that can be easily reused. 
 
 # Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
