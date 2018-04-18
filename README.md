@@ -24,6 +24,22 @@ Wait a couple of seconds, so the  `.gif` finishes downloading.
     <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
+# Instagrid
+Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. 
+
+
+# Demo 
+Wait a couple of seconds, so the `.gif` finishes downloading. 
+
+Horizontal             |  Vertical
+:-------------------------:|:-------------------------:
+<p align="center">
+    <img src="readme-assets/insta-grid_horizontal.gif" alt="Drawing" style="width: 500px;"/>
+</p>  |  <p align="center">
+    <img src="readme-assets/insta-grid_vertical.gif" alt="Drawing" style="width: 500px;"/>
+</p>
+## Author
+
 
 # Author 
 [Astemir Eleev](https://github.com/jVirus)
