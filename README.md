@@ -7,7 +7,7 @@ The assets used in this project were taken from the `Web`. Do not use them for c
 # Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
 
-# Demo
+## Demo
 Wait a couple of seconds, so the  `.gif` finishes downloading.
 
 <p align="center">
@@ -17,7 +17,7 @@ Wait a couple of seconds, so the  `.gif` finishes downloading.
 # Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. 
 
-# Demo
+## Demo
 Wait a couple of seconds, so the  `.gif` finishes downloading.
 
 <p align="center">
@@ -27,15 +27,15 @@ Wait a couple of seconds, so the  `.gif` finishes downloading.
 # Instagrid
 Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. 
 
-# Demo 
+## Demo 
 Wait a couple of seconds, so the `.gif` finishes downloading. 
 
-## Horizontal 
+### Horizontal 
 <p align="center">
     <img src="readme-assets/insta-grid_horizontal.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
-## Vertical
+### Vertical
 <p align="center">
     <img src="readme-assets/insta-grid_vertical.gif" alt="Drawing" style="width: 500px;"/>
 </p>
