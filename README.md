@@ -1,4 +1,4 @@
-# collection-flow-layout-ios
+# ios-collection-view-layouts
 📐 A set of custom layouts for UICollectionView with examples. The repo will have a collection of custom layouts for `UICollectionView` componnet that can be easily reused. 
 
 # Warning 
