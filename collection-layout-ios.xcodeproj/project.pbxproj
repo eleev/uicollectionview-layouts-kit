@@ -39,6 +39,36 @@
 		A90D334520879470001AB348 /* InstagridCellAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D334420879470001AB348 /* InstagridCellAdapter.swift */; };
 		A90D335F2087A1CD001AB348 /* insta-grid_vertical.gif in Resources */ = {isa = PBXBuildFile; fileRef = A90D335D2087A1CD001AB348 /* insta-grid_vertical.gif */; };
 		A9119B6C2087A49C007CB2D5 /* insta-grid_horizontal.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */; };
+		A91B6CB320B31E4D0083837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CB220B31E4D0083837C /* AppDelegate.swift */; };
+		A91B6CB520B31E4D0083837C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CB420B31E4D0083837C /* ViewController.swift */; };
+		A91B6CB820B31E4D0083837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB620B31E4D0083837C /* Main.storyboard */; };
+		A91B6CBA20B31E4D0083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB920B31E4D0083837C /* Assets.xcassets */; };
+		A91B6CBD20B31E4D0083837C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */; };
+		A91B6CC820B31E4D0083837C /* snap_flow_layoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CC720B31E4D0083837C /* snap_flow_layoutTests.swift */; };
+		A91B6CD320B31E4D0083837C /* snap_flow_layoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CD220B31E4D0083837C /* snap_flow_layoutUITests.swift */; };
+		A91B6CE120B31E850083837C /* VerticalSnapCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */; };
+		A91B6CE220B31F070083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A91B6CE320B31F070083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A91B6CE420B31F070083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A91B6CE520B31F0A0083837C /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A91B6CE620B31F0A0083837C /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A91B6CE720B31F0B0083837C /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
+		A91B6CE820B31F0D0083837C /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A91B6CE920B31F0D0083837C /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A91B6CEA20B31F0D0083837C /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A91B6CEB20B31F120083837C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A91B6CEC20B31F130083837C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A91B6CED20B31F130083837C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A91B6CEE20B31F1B0083837C /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A91B6CF020B31F1B0083837C /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A91B6CF120B31F1B0083837C /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A91B6CF220B31F1B0083837C /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A91B6CF320B31F1B0083837C /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A91B6CF820B342DB0083837C /* VerticalSnapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */; };
+		A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */; };
+		A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */; };
+		A91B6CFE20B4018C0083837C /* VerticalSnapCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */; };
 		A9623BCE208478BB00E37FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCD208478BB00E37FFD /* AppDelegate.swift */; };
 		A9623BD0208478BB00E37FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCF208478BB00E37FFD /* ViewController.swift */; };
 		A9623BD3208478BB00E37FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BD1208478BB00E37FFD /* Main.storyboard */; };
@@ -125,6 +155,20 @@
 			remoteGlobalIDString = A90D32F020878435001AB348;
 			remoteInfo = "insta-grid";
 		};
+		A91B6CC420B31E4D0083837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9623BC2208478BB00E37FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91B6CAF20B31E4D0083837C;
+			remoteInfo = "snap-flow-layout";
+		};
+		A91B6CCF20B31E4D0083837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9623BC2208478BB00E37FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91B6CAF20B31E4D0083837C;
+			remoteInfo = "snap-flow-layout";
+		};
 		A9623BF7208478D900E37FFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9623BC2208478BB00E37FFD /* Project object */;
@@ -176,6 +220,24 @@
 		A90D334420879470001AB348 /* InstagridCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridCellAdapter.swift; sourceTree = "<group>"; };
 		A90D335D2087A1CD001AB348 /* insta-grid_vertical.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "insta-grid_vertical.gif"; sourceTree = "<group>"; };
 		A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "insta-grid_horizontal.gif"; sourceTree = "<group>"; };
+		A91B6CB020B31E4D0083837C /* vertical-snap-flow-layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vertical-snap-flow-layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B6CB220B31E4D0083837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A91B6CB420B31E4D0083837C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91B6CB720B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A91B6CB920B31E4D0083837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91B6CBC20B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91B6CBE20B31E4D0083837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91B6CC320B31E4D0083837C /* vertical-snap-flow-layoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vertical-snap-flow-layoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B6CC720B31E4D0083837C /* snap_flow_layoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snap_flow_layoutTests.swift; sourceTree = "<group>"; };
+		A91B6CC920B31E4D0083837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91B6CCE20B31E4D0083837C /* vertical-snap-flow-layoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vertical-snap-flow-layoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B6CD220B31E4D0083837C /* snap_flow_layoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snap_flow_layoutUITests.swift; sourceTree = "<group>"; };
+		A91B6CD420B31E4D0083837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionViewController.swift; sourceTree = "<group>"; };
+		A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionAdapter.swift; sourceTree = "<group>"; };
+		A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionViewCell.swift; sourceTree = "<group>"; };
+		A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalSnapCollectionViewCell.xib; sourceTree = "<group>"; };
 		A94DD904208760680009F0A3 /* pinterest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinterest.gif; sourceTree = "<group>"; };
 		A94DD905208760690009F0A3 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		A9623BCA208478BB00E37FFD /* collection-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +305,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A90D330C20878436001AB348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CAD20B31E4D0083837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CC020B31E4D0083837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CCB20B31E4D0083837C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,6 +461,82 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		A91B6CB120B31E4D0083837C /* vertical-snap-flow-layout */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CDE20B31E570083837C /* Core */,
+				A91B6CB220B31E4D0083837C /* AppDelegate.swift */,
+				A91B6CB420B31E4D0083837C /* ViewController.swift */,
+				A91B6CB620B31E4D0083837C /* Main.storyboard */,
+				A91B6CB920B31E4D0083837C /* Assets.xcassets */,
+				A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */,
+				A91B6CBE20B31E4D0083837C /* Info.plist */,
+			);
+			path = "vertical-snap-flow-layout";
+			sourceTree = "<group>";
+		};
+		A91B6CC620B31E4D0083837C /* vertical-snap-flow-layoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CC720B31E4D0083837C /* snap_flow_layoutTests.swift */,
+				A91B6CC920B31E4D0083837C /* Info.plist */,
+			);
+			path = "vertical-snap-flow-layoutTests";
+			sourceTree = "<group>";
+		};
+		A91B6CD120B31E4D0083837C /* vertical-snap-flow-layoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CD220B31E4D0083837C /* snap_flow_layoutUITests.swift */,
+				A91B6CD420B31E4D0083837C /* Info.plist */,
+			);
+			path = "vertical-snap-flow-layoutUITests";
+			sourceTree = "<group>";
+		};
+		A91B6CDE20B31E570083837C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CF620B320FA0083837C /* Adapter */,
+				A91B6CF520B320F60083837C /* Cell */,
+				A91B6CF420B320F20083837C /* Controller */,
+				A91B6CDF20B31E5F0083837C /* Layout */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A91B6CDF20B31E5F0083837C /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		A91B6CF420B320F20083837C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A91B6CF520B320F60083837C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */,
+				A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A91B6CF620B320FA0083837C /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 		A94DD903208760520009F0A3 /* readme-assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +563,9 @@
 				A90D32F220878435001AB348 /* insta-grid */,
 				A90D330720878436001AB348 /* insta-gridTests */,
 				A90D331220878436001AB348 /* insta-gridUITests */,
+				A91B6CB120B31E4D0083837C /* vertical-snap-flow-layout */,
+				A91B6CC620B31E4D0083837C /* vertical-snap-flow-layoutTests */,
+				A91B6CD120B31E4D0083837C /* vertical-snap-flow-layoutUITests */,
 				A9623BCB208478BB00E37FFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -421,6 +583,9 @@
 				A90D32F120878435001AB348 /* insta-grid.app */,
 				A90D330420878436001AB348 /* insta-gridTests.xctest */,
 				A90D330F20878436001AB348 /* insta-gridUITests.xctest */,
+				A91B6CB020B31E4D0083837C /* vertical-snap-flow-layout.app */,
+				A91B6CC320B31E4D0083837C /* vertical-snap-flow-layoutTests.xctest */,
+				A91B6CCE20B31E4D0083837C /* vertical-snap-flow-layoutUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -673,6 +838,59 @@
 			productReference = A90D330F20878436001AB348 /* insta-gridUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A91B6CAF20B31E4D0083837C /* vertical-snap-flow-layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layout" */;
+			buildPhases = (
+				A91B6CAC20B31E4D0083837C /* Sources */,
+				A91B6CAD20B31E4D0083837C /* Frameworks */,
+				A91B6CAE20B31E4D0083837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vertical-snap-flow-layout";
+			productName = "snap-flow-layout";
+			productReference = A91B6CB020B31E4D0083837C /* vertical-snap-flow-layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91B6CC220B31E4D0083837C /* vertical-snap-flow-layoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91B6CDC20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layoutTests" */;
+			buildPhases = (
+				A91B6CBF20B31E4D0083837C /* Sources */,
+				A91B6CC020B31E4D0083837C /* Frameworks */,
+				A91B6CC120B31E4D0083837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91B6CC520B31E4D0083837C /* PBXTargetDependency */,
+			);
+			name = "vertical-snap-flow-layoutTests";
+			productName = "snap-flow-layoutTests";
+			productReference = A91B6CC320B31E4D0083837C /* vertical-snap-flow-layoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91B6CCD20B31E4D0083837C /* vertical-snap-flow-layoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91B6CDD20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layoutUITests" */;
+			buildPhases = (
+				A91B6CCA20B31E4D0083837C /* Sources */,
+				A91B6CCB20B31E4D0083837C /* Frameworks */,
+				A91B6CCC20B31E4D0083837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91B6CD020B31E4D0083837C /* PBXTargetDependency */,
+			);
+			name = "vertical-snap-flow-layoutUITests";
+			productName = "snap-flow-layoutUITests";
+			productReference = A91B6CCE20B31E4D0083837C /* vertical-snap-flow-layoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A9623BC9208478BB00E37FFD /* collection-layout-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9623BDC208478BB00E37FFD /* Build configuration list for PBXNativeTarget "collection-layout-ios" */;
@@ -817,6 +1035,17 @@
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = A90D32F020878435001AB348;
 					};
+					A91B6CAF20B31E4D0083837C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A91B6CC220B31E4D0083837C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A91B6CAF20B31E4D0083837C;
+					};
+					A91B6CCD20B31E4D0083837C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A91B6CAF20B31E4D0083837C;
+					};
 					A9623BC9208478BB00E37FFD = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -867,6 +1096,9 @@
 				A90D32F020878435001AB348 /* insta-grid */,
 				A90D330320878436001AB348 /* insta-gridTests */,
 				A90D330E20878436001AB348 /* insta-gridUITests */,
+				A91B6CAF20B31E4D0083837C /* vertical-snap-flow-layout */,
+				A91B6CC220B31E4D0083837C /* vertical-snap-flow-layoutTests */,
+				A91B6CCD20B31E4D0083837C /* vertical-snap-flow-layoutUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -903,6 +1135,40 @@
 				A90D332E20878453001AB348 /* Assets.xcassets in Resources */,
 				A90D332F20878453001AB348 /* Comics.xcassets in Resources */,
 				A90D332D20878453001AB348 /* ComicsData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CAE20B31E4D0083837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CBD20B31E4D0083837C /* LaunchScreen.storyboard in Resources */,
+				A91B6CE520B31F0A0083837C /* Comics.xcassets in Resources */,
+				A91B6CE820B31F0D0083837C /* ComicsData.plist in Resources */,
+				A91B6CBA20B31E4D0083837C /* Assets.xcassets in Resources */,
+				A91B6CFE20B4018C0083837C /* VerticalSnapCollectionViewCell.xib in Resources */,
+				A91B6CE220B31F070083837C /* Assets.xcassets in Resources */,
+				A91B6CB820B31E4D0083837C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CC120B31E4D0083837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CE320B31F070083837C /* Assets.xcassets in Resources */,
+				A91B6CE620B31F0A0083837C /* Comics.xcassets in Resources */,
+				A91B6CE920B31F0D0083837C /* ComicsData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CCC20B31E4D0083837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CE420B31F070083837C /* Assets.xcassets in Resources */,
+				A91B6CE720B31F0B0083837C /* Comics.xcassets in Resources */,
+				A91B6CEA20B31F0D0083837C /* ComicsData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,6 +1295,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A91B6CAC20B31E4D0083837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CEE20B31F1B0083837C /* Comics.swift in Sources */,
+				A91B6CEB20B31F120083837C /* DesignableView.swift in Sources */,
+				A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */,
+				A91B6CB520B31E4D0083837C /* ViewController.swift in Sources */,
+				A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */,
+				A91B6CE120B31E850083837C /* VerticalSnapCollectionFlowLayout.swift in Sources */,
+				A91B6CF820B342DB0083837C /* VerticalSnapCollectionViewController.swift in Sources */,
+				A91B6CB320B31E4D0083837C /* AppDelegate.swift in Sources */,
+				A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CBF20B31E4D0083837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CEC20B31F130083837C /* DesignableView.swift in Sources */,
+				A91B6CC820B31E4D0083837C /* snap_flow_layoutTests.swift in Sources */,
+				A91B6CF020B31F1B0083837C /* Comics.swift in Sources */,
+				A91B6CF120B31F1B0083837C /* ComicsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91B6CCA20B31E4D0083837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B6CED20B31F130083837C /* DesignableView.swift in Sources */,
+				A91B6CD320B31E4D0083837C /* snap_flow_layoutUITests.swift in Sources */,
+				A91B6CF220B31F1B0083837C /* Comics.swift in Sources */,
+				A91B6CF320B31F1B0083837C /* ComicsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9623BC6208478BB00E37FFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1129,6 +1433,16 @@
 			target = A90D32F020878435001AB348 /* insta-grid */;
 			targetProxy = A90D331020878436001AB348 /* PBXContainerItemProxy */;
 		};
+		A91B6CC520B31E4D0083837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91B6CAF20B31E4D0083837C /* vertical-snap-flow-layout */;
+			targetProxy = A91B6CC420B31E4D0083837C /* PBXContainerItemProxy */;
+		};
+		A91B6CD020B31E4D0083837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91B6CAF20B31E4D0083837C /* vertical-snap-flow-layout */;
+			targetProxy = A91B6CCF20B31E4D0083837C /* PBXContainerItemProxy */;
+		};
 		A9623BF8208478D900E37FFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9623BE2208478D900E37FFD /* pinterest */;
@@ -1164,6 +1478,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A90D32FD20878436001AB348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A91B6CB620B31E4D0083837C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91B6CB720B31E4D0083837C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91B6CBC20B31E4D0083837C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1334,6 +1664,124 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "insta-grid";
+			};
+			name = Release;
+		};
+		A91B6CD520B31E4D0083837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "$(SRCROOT)/vertical-snap-flow-layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91B6CD620B31E4D0083837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "$(SRCROOT)/vertical-snap-flow-layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A91B6CD720B31E4D0083837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "snap-flow-layoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snap-flow-layout.app/snap-flow-layout";
+			};
+			name = Debug;
+		};
+		A91B6CD820B31E4D0083837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "snap-flow-layoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snap-flow-layout.app/snap-flow-layout";
+			};
+			name = Release;
+		};
+		A91B6CD920B31E4D0083837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "snap-flow-layoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snap-flow-layout";
+			};
+			name = Debug;
+		};
+		A91B6CDA20B31E4D0083837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "snap-flow-layoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.snap-flow-layoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snap-flow-layout";
 			};
 			name = Release;
 		};
@@ -1753,6 +2201,33 @@
 			buildConfigurations = (
 				A90D331A20878436001AB348 /* Debug */,
 				A90D331B20878436001AB348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B6CD520B31E4D0083837C /* Debug */,
+				A91B6CD620B31E4D0083837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91B6CDC20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B6CD720B31E4D0083837C /* Debug */,
+				A91B6CD820B31E4D0083837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91B6CDD20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow-layoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B6CD920B31E4D0083837C /* Debug */,
+				A91B6CDA20B31E4D0083837C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
