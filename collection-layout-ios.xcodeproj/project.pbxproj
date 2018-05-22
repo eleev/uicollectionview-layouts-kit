@@ -40,7 +40,6 @@
 		A90D335F2087A1CD001AB348 /* insta-grid_vertical.gif in Resources */ = {isa = PBXBuildFile; fileRef = A90D335D2087A1CD001AB348 /* insta-grid_vertical.gif */; };
 		A9119B6C2087A49C007CB2D5 /* insta-grid_horizontal.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */; };
 		A91B6CB320B31E4D0083837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CB220B31E4D0083837C /* AppDelegate.swift */; };
-		A91B6CB520B31E4D0083837C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CB420B31E4D0083837C /* ViewController.swift */; };
 		A91B6CB820B31E4D0083837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB620B31E4D0083837C /* Main.storyboard */; };
 		A91B6CBA20B31E4D0083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB920B31E4D0083837C /* Assets.xcassets */; };
 		A91B6CBD20B31E4D0083837C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */; };
@@ -222,7 +221,6 @@
 		A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "insta-grid_horizontal.gif"; sourceTree = "<group>"; };
 		A91B6CB020B31E4D0083837C /* vertical-snap-flow-layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vertical-snap-flow-layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91B6CB220B31E4D0083837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A91B6CB420B31E4D0083837C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A91B6CB720B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A91B6CB920B31E4D0083837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91B6CBC20B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -466,7 +464,6 @@
 			children = (
 				A91B6CDE20B31E570083837C /* Core */,
 				A91B6CB220B31E4D0083837C /* AppDelegate.swift */,
-				A91B6CB420B31E4D0083837C /* ViewController.swift */,
 				A91B6CB620B31E4D0083837C /* Main.storyboard */,
 				A91B6CB920B31E4D0083837C /* Assets.xcassets */,
 				A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */,
@@ -1302,7 +1299,6 @@
 				A91B6CEE20B31F1B0083837C /* Comics.swift in Sources */,
 				A91B6CEB20B31F120083837C /* DesignableView.swift in Sources */,
 				A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */,
-				A91B6CB520B31E4D0083837C /* ViewController.swift in Sources */,
 				A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */,
 				A91B6CE120B31E850083837C /* VerticalSnapCollectionFlowLayout.swift in Sources */,
 				A91B6CF820B342DB0083837C /* VerticalSnapCollectionViewController.swift in Sources */,
