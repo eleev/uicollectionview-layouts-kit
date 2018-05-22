@@ -68,6 +68,9 @@
 		A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */; };
 		A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */; };
 		A91B6CFE20B4018C0083837C /* VerticalSnapCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */; };
+		A91B6D0120B411080083837C /* snap-horizontal.gif in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CFF20B411080083837C /* snap-horizontal.gif */; };
+		A91B6D0220B411080083837C /* snap-vertical.gif in Resources */ = {isa = PBXBuildFile; fileRef = A91B6D0020B411080083837C /* snap-vertical.gif */; };
+		A91B6D0420B411400083837C /* pinterest.gif in Resources */ = {isa = PBXBuildFile; fileRef = A91B6D0320B4113F0083837C /* pinterest.gif */; };
 		A9623BCE208478BB00E37FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCD208478BB00E37FFD /* AppDelegate.swift */; };
 		A9623BD0208478BB00E37FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623BCF208478BB00E37FFD /* ViewController.swift */; };
 		A9623BD3208478BB00E37FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9623BD1208478BB00E37FFD /* Main.storyboard */; };
@@ -236,7 +239,9 @@
 		A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionAdapter.swift; sourceTree = "<group>"; };
 		A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionViewCell.swift; sourceTree = "<group>"; };
 		A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalSnapCollectionViewCell.xib; sourceTree = "<group>"; };
-		A94DD904208760680009F0A3 /* pinterest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinterest.gif; sourceTree = "<group>"; };
+		A91B6CFF20B411080083837C /* snap-horizontal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "snap-horizontal.gif"; sourceTree = "<group>"; };
+		A91B6D0020B411080083837C /* snap-vertical.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "snap-vertical.gif"; sourceTree = "<group>"; };
+		A91B6D0320B4113F0083837C /* pinterest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinterest.gif; sourceTree = "<group>"; };
 		A94DD905208760690009F0A3 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		A9623BCA208478BB00E37FFD /* collection-layout-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-layout-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9623BCD208478BB00E37FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -539,8 +544,10 @@
 			children = (
 				A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */,
 				A90D335D2087A1CD001AB348 /* insta-grid_vertical.gif */,
-				A94DD904208760680009F0A3 /* pinterest.gif */,
 				A94DD905208760690009F0A3 /* spinner.gif */,
+				A91B6CFF20B411080083837C /* snap-horizontal.gif */,
+				A91B6D0020B411080083837C /* snap-vertical.gif */,
+				A91B6D0320B4113F0083837C /* pinterest.gif */,
 			);
 			path = "readme-assets";
 			sourceTree = "<group>";
@@ -1139,7 +1146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91B6D0120B411080083837C /* snap-horizontal.gif in Resources */,
 				A91B6CBD20B31E4D0083837C /* LaunchScreen.storyboard in Resources */,
+				A91B6D0220B411080083837C /* snap-vertical.gif in Resources */,
+				A91B6D0420B411400083837C /* pinterest.gif in Resources */,
 				A91B6CE520B31F0A0083837C /* Comics.xcassets in Resources */,
 				A91B6CE820B31F0D0083837C /* ComicsData.plist in Resources */,
 				A91B6CBA20B31E4D0083837C /* Assets.xcassets in Resources */,
