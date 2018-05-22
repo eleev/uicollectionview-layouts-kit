@@ -22,21 +22,21 @@ Is a custom flow layout that adds `snapping` behaviour to `single column` collec
 
 
 # Pinterest 
-Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
+Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. Supports both `landscape` and `portrait` layouts.
 
 <p align="center">
     <img src="readme-assets/pinterest.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
 # Spinner
-Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. 
+Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
 
 <p align="center">
     <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
 # Instagrid
-Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. 
+Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. Supports both `landscape` and `portrait` layouts.
 
 ### Horizontal 
 <p align="center">
