@@ -8,6 +8,27 @@
 
 import UIKit
 
+//public extension UICollectionView {
+//    
+//    /// Registers custom UICollectionViewCell for a UICollectionView instance. UICollectionViewCell needs to be located in current Bundle
+//    ///
+//    /// Usage example:
+//    /// let collectionView = UICollectionView()
+//    /// collectionView.register(cellNamed: UICollectionViewCell.self, reuseableIdentifier: "item-cell")
+//    ///
+//    /// - Parameters:
+//    ///   - name: is a name of a UICollectionView that is going to be registered (hint: use UICollectionView.self as a parameter in order to avoid any misspellings)
+//    ///   - id: is a reusable identifier for a UICollectionView cell
+//    public func register(cellNamed name: UICollectionViewCell.Type, reusableId id: String) {
+//        let nibName = String(describing: name)
+//        let bundle = Bundle(identifier: nibName)
+//        let cellNib = UINib(nibName: nibName, bundle: bundle)
+//        self.register(cellNib, forCellWithReuseIdentifier: id)
+//    }
+//}
+
+
+
 class VerticalSnapCollectionViewController: UICollectionViewController {
 
     // MARK: - Properties
@@ -27,12 +48,8 @@ class VerticalSnapCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes // Register cell classes
-        let bundle = Bundle(for: type(of: self))
-        let nibName = String(describing: VerticalSnapCollectionViewCell.self)
-        let cellNib = UINib(nibName: nibName, bundle: bundle)
-        self.collectionView?.register(cellNib, forCellWithReuseIdentifier: VerticalSnapCollectionViewCell.reusableId)
-
+        self.collectionView?.register(cell: VerticalSnapCollectionViewCell.self, reusableId: VerticalSnapCollectionViewCell.reusableId)
+        
         // Do any additional setup after loading the view.
         
         data = ComicsManager.covers()
