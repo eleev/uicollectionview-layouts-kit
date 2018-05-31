@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct  VerticalSnapCollectionAdapter {
+struct VerticalSnapCollectionAdapter {
     
     // MARK: - Methods
     
