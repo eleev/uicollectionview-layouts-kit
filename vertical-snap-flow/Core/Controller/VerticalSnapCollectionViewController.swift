@@ -53,7 +53,7 @@ class VerticalSnapCollectionViewController: UICollectionViewController {
         // Configure the cell
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: VerticalSnapCollectionViewCell.reusableId, for: indexPath) as? VerticalSnapCollectionViewCell else {
-            fatalError(#function + " could not dequeue InstagridCollectionViewCell using the reusable identifier: \(VerticalSnapCollectionViewCell.reusableId)")
+            fatalError(#function + " could not dequeue VerticalSnapCollectionViewCell using the reusable identifier: \(VerticalSnapCollectionViewCell.reusableId)")
         }
         
         // Configure the cell
