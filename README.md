@@ -2,7 +2,7 @@
 [![Language](https://img.shields.io/badge/language-swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-# ios-collection-view-layouts
+# collection-layout-kit
 📐 A set of custom layouts for UICollectionView with examples. The repo will have a collection of custom layouts for `UICollectionView` componnet that can be easily reused. 
 
 # Warning 
