@@ -1,8 +1,12 @@
+# uicollectionview-layouts-kit [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 [![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
 [![Language](https://img.shields.io/badge/language-swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-# collection-layout-kit
+**Last Update: 18/August/2018.**
+
+# About
 📐 A set of custom layouts for UICollectionView with examples. The repo will have a collection of custom layouts for `UICollectionView` componnet that can be easily reused. 
 
 # Warning 
