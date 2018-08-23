@@ -724,7 +724,7 @@
 		A99BC3C22085D2F000FF1666 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A99BC3D72085E04200FF1666 /* Adapeter */,
+				A99BC3D72085E04200FF1666 /* Adapter */,
 				A99BC3D62085E03D00FF1666 /* Controller */,
 				A99BC3D52085E03400FF1666 /* Layout */,
 				A99BC3D42085E02B00FF1666 /* Cell */,
@@ -785,12 +785,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A99BC3D72085E04200FF1666 /* Adapeter */ = {
+		A99BC3D72085E04200FF1666 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
 				A9623C2E2084CCC400E37FFD /* ComicCellAdapter.swift */,
 			);
-			path = Adapeter;
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		A99BC3D82085E05000FF1666 /* Controller */ = {
