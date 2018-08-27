@@ -12,6 +12,77 @@
 # Warning 
 The assets used in this project were taken from the `Web`. Do not use them for commertial purposes and proprietary projects. They are used just for demostration only. 
 
+# Setup
+In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). `CocoaPods` will be soon added as a dependency manager.
+
+# Usage
+The next step is to either `programmatically` or via `Storyboard`/`Nib` file connect the layout and override the default one. 
+
+## Programmatic Setup
+If you choose `programmatic` approach, all you need to do is to set the instance of a layout using the following scehem:
+
+```swift
+...
+let verticalSnapCollectionFlowLayout = VerticalSnapCollectionFlowLayout()
+// Use custom properties that are available for each layout
+verticalSnapCollectionFlowLayout.minLineSpacing = 30
+verticalSnapCollectionFlowLayout.spacingMultiplier = 8
+
+collectionView.collectionViewLayout = verticalSnapCollectionFlowLayout
+
+// or 
+
+collectionView.setCollectionViewLayout(verticalSnapCollectionFlowLayout, animated: true)
+```
+
+## Storyboard/Nib Setup
+Setting up the layouts via `Storyboard`/`Nib` is very easy as well. All you need to do is to the following:
+
+1. Find your `Collection View` in visual editor
+2. Select it
+3. Open `Attributes Inspector`
+4. Find and change UI menu called `Layout` to `Custom`
+5. Set the class to the one that you wish to use
+
+In your view controller you need to provide a valid reference to the `UIViewController` from `Storyboard`/`Nib` file where you overriden the default layout class.
+
+For cases when you need to tell your custom layout what class is going to delegate the layout handling:
+```swift
+...
+if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
+    layout.delegate = self
+}
+...
+```
+
+For cases when you simply need to change properties for custom layouts that were set via visual editor:
+```swift
+...
+if let layout = collectionView?.collectionViewLayout as? InstagridLayout {
+    layout.itemSpacing = 10
+    layout.fixedDivisionCount = 4
+    layout.scrollDirection = .vertical
+}
+...
+```
+
+If you use `Storyboard`/`Nib` approach, consider creating an `IBOutlet` to the custom layout and directly set it up, insteap of casting layout using the collection view reference:
+```swift
+...
+@IBOutlet weak var instagridLayout: InstagridLayout!
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    // InstagridLyout setup
+    instagridLayout.delegate = self
+    instagridLayout.itemSpacing = 10
+    instagridLayout.fixedDivisionCount = 4
+    instagridLayout.scrollDirection = .vertical
+}
+...
+```
+
 # Vertical Snap 
 Is a custom flow layout that adds `snapping` behaviour to `single column` collection view. Supports both `portrait` and `landscape` layouts. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
 
