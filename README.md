@@ -1,21 +1,21 @@
 # uicollectionview-layouts-kit [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
-[![Language](https://img.shields.io/badge/language-swift-orange.svg)]()
+[![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 **Last Update: 24/August/2018.**
 
-# About
+# ✍️ About
 📐 A set of custom layouts for `UICollectionView` with examples. All the layouts support both `portrait` and `landscape` `UI` orientations as well as support for all `iOS`-related size classes (`iPhone` & `iPad`).
 
-# Warning 
+# ⚠️ Warning 
 The assets used in this project were taken from the `Web`. Do not use them for commertial purposes and proprietary projects. They are used just for demostration only. 
 
-# Setup
+# 🏗 Setup
 In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). `CocoaPods` will be soon added as a dependency manager.
 
-# Usage
+# ✈️ Usage
 The next step is to either `programmatically` or via `Storyboard`/`Nib` file connect the layout and override the default one. 
 
 ## Programmatic Setup
@@ -83,7 +83,9 @@ override func viewDidLoad() {
 ...
 ```
 
-# Vertical Snap 
+# 📚 Contents
+
+## Vertical Snap 
 Is a custom flow layout that adds `snapping` behaviour to `single column` collection view. Supports both `portrait` and `landscape` layouts. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
 
 ### Portrait 
@@ -100,21 +102,21 @@ Is a custom flow layout that adds `snapping` behaviour to `single column` collec
 </p>
 
 
-# Pinterest 
+## Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. Supports both `landscape` and `portrait` layouts.
 
 <p align="center">
     <img src="readme-assets/pinterest.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
-# Spinner
+## Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
 
 <p align="center">
     <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
-# Instagrid
+## Instagrid
 Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. Supports both `landscape` and `portrait` layouts.
 
 ### Horizontal 
@@ -127,9 +129,9 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
     <img src="readme-assets/insta-grid_vertical.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
-# Author 
+# 👨‍💻 Author 
 [Astemir Eleev](https://github.com/jVirus)
 
-# Licence 
+# 🔖 Licence 
 The project is available under [MIT Licence](https://github.com/jVirus/collection-flow-layout-ios/blob/master/LICENSE)
 
