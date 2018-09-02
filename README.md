@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 24/August/2018.**
+**Last Update: 02/September/2018.**
 
 # ✍️ About
 📐 A set of custom layouts for `UICollectionView` with examples. All the layouts support both `portrait` and `landscape` `UI` orientations as well as support for all `iOS`-related size classes (`iPhone` & `iPad`).
