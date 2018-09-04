@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 02/September/2018.**
+**Last Update: 04/September/2018.**
 
 # ✍️ About
 📐 A set of custom layouts for `UICollectionView` with examples. All the layouts support both `portrait` and `landscape` `UI` orientations as well as support for all `iOS`-related size classes (`iPhone` & `iPad`).
@@ -13,7 +13,7 @@
 The assets used in this project were taken from the `Web`. Do not use them for commertial purposes and proprietary projects. They are used just for demostration only. 
 
 # 🏗 Setup
-In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). `CocoaPods` will be soon added as a dependency manager.
+In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). `CocoaPods` will be added as a dependency manager.
 
 # ✈️ Usage
 The next step is to either `programmatically` or via `Storyboard`/`Nib` file connect the layout and override the default one. 
