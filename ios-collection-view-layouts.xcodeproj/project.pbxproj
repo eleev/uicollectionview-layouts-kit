@@ -1075,6 +1075,7 @@
 					};
 					A9623BC9208478BB00E37FFD = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					A9623BE2208478D900E37FFD = {
 						CreatedOnToolsVersion = 9.3;
@@ -1956,7 +1957,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.collection-flow-layout-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1976,7 +1977,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.collection-flow-layout-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
