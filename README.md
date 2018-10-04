@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 21/September/2018.**
+**Last Update: 04/October/2018.**
 
 ![](cover-uickit.png)
 
@@ -21,7 +21,7 @@ In order to add layouts to your project, simply copy-paste corresponding `Layout
 The next step is to either `programmatically` or via `Storyboard`/`Nib` file connect the layout and override the default one. 
 
 ## Programmatic Setup
-If you choose `programmatic` approach, all you need to do is to set the instance of a layout using the following scehem:
+If you choose `programmatic` approach, all you need to do is to set the instance of a layout using the following scheme:
 
 ```swift
 ...
@@ -38,9 +38,9 @@ collectionView.setCollectionViewLayout(verticalSnapCollectionFlowLayout, animate
 ```
 
 ## Storyboard/Nib Setup
-Setting up the layouts via `Storyboard`/`Nib` is very easy as well. All you need to do is to the following:
+Setting up the layouts via `Storyboard`/`Nib` is very easy as well. All you need to do is the following:
 
-1. Find your `Collection View` in visual editor
+1. Find your `Collection View` in Xcode's visual editor
 2. Select it
 3. Open `Attributes Inspector`
 4. Find and change UI menu called `Layout` to `Custom`
@@ -48,7 +48,7 @@ Setting up the layouts via `Storyboard`/`Nib` is very easy as well. All you need
 
 In your view controller you need to provide a valid reference to the `UIViewController` from `Storyboard`/`Nib` file where you overriden the default layout class.
 
-For cases when you need to tell your custom layout what class is going to delegate the layout handling:
+For cases when you need to tell your custom layout what class is going to delegate the layout handling, use the following code:
 ```swift
 ...
 if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
@@ -57,7 +57,7 @@ if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
 ...
 ```
 
-For cases when you simply need to change properties for custom layouts that were set via visual editor:
+For cases when you simply need to change properties for custom layouts that were set via visual editor, use the following code:
 ```swift
 ...
 if let layout = collectionView?.collectionViewLayout as? InstagridLayout {
@@ -68,7 +68,7 @@ if let layout = collectionView?.collectionViewLayout as? InstagridLayout {
 ...
 ```
 
-If you use `Storyboard`/`Nib` approach, consider creating an `IBOutlet` to the custom layout and directly set it up, insteap of casting layout using the collection view reference:
+If you use `Storyboard`/`Nib` approach, consider creating an `IBOutlet` to the custom layout and directly set it up, instead of casting layout using the collection view reference:
 ```swift
 ...
 @IBOutlet weak var instagridLayout: InstagridLayout!
@@ -88,7 +88,7 @@ override func viewDidLoad() {
 # 📚 Contents
 
 ## Vertical Snap 
-Is a custom flow layout that adds `snapping` behaviour to `single column` collection view. Supports both `portrait` and `landscape` layouts. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
+Is a custom flow layout that adds `snapping` behavior to `single column` collection view. Supports both `portrait` and `landscape` layouts. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
 
 ### Portrait 
 
