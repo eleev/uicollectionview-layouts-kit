@@ -19,7 +19,7 @@ class InstagridLayout: UICollectionViewLayout, InstagridLayoutDelegate {
     // MARK: - Properties
     
     // User-configurable 'knobs'
-    var scrollDirection: UICollectionViewScrollDirection = .vertical
+    var scrollDirection: UICollectionView.ScrollDirection = .vertical
     
     // Spacing between items
     var itemSpacing: CGFloat = 0
@@ -97,7 +97,7 @@ class InstagridLayout: UICollectionViewLayout, InstagridLayoutDelegate {
                 } else {
                     frame = CGRect(x: additionalSectionSpacing, y: 0, width: headerFlexibleDimension, height: fixedDimension)
                 }
-                let headerLayoutAttributes = UICollectionViewLayoutAttributes(forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, with: IndexPath(item: 0, section: section))
+                let headerLayoutAttributes = UICollectionViewLayoutAttributes(forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, with: IndexPath(item: 0, section: section))
                 headerLayoutAttributes.frame = frame
                 
                 headerAttributesCache.append(headerLayoutAttributes)
@@ -172,7 +172,7 @@ class InstagridLayout: UICollectionViewLayout, InstagridLayoutDelegate {
     }
     
     override func layoutAttributesForSupplementaryView(ofKind elementKind: String, at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
-        guard elementKind == UICollectionElementKindSectionHeader else { return nil }
+        guard elementKind == UICollectionView.elementKindSectionHeader else { return nil }
         
         return headerAttributesCache.first {
             $0.indexPath == indexPath

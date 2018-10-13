@@ -55,7 +55,7 @@ class VerticalSnapCollectionViewController: UICollectionViewController {
         data = ComicsManager.covers()
 
         collectionView?.backgroundColor = .clear
-        collectionView?.contentInset = UIEdgeInsetsMake(24, 16, 24, 16)        
+        collectionView?.contentInset = UIEdgeInsets.init(top: 24, left: 16, bottom: 24, right: 16)        
     }
 
     // MARK: UICollectionViewDataSource

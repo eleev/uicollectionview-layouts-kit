@@ -27,6 +27,9 @@ class ComicsCell: UICollectionViewCell {
         super.awakeFromNib()
         containerView.layer.cornerRadius = 10
         containerView.layer.masksToBounds = true
+        
+        captionLabel.sizeToFit()
+        commentLabel.sizeToFit()
     }
         
 }

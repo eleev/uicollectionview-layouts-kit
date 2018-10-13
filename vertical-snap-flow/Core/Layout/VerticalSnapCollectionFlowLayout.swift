@@ -78,7 +78,7 @@ class VerticalSnapCollectionFlowLayout: UICollectionViewFlowLayout {
         scrollDirection = .vertical
         minimumLineSpacing = minLineSpacing
         itemSize = CGSize(width: unwrappedCollectionView.bounds.width, height: itemHeight)
-        collectionView!.decelerationRate = UIScrollViewDecelerationRateFast
+        collectionView!.decelerationRate = UIScrollView.DecelerationRate.fast
     }
     
     private func recalculateItemSize(for itemHeight: CGFloat) {
