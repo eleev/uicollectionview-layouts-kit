@@ -17,7 +17,7 @@
 The assets used in this project were taken from the `Web`. Do not use them for commertial purposes and proprietary projects. They are used just for demostration only. 
 
 # 🏗 Setup
-In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). `CocoaPods` will be added as a dependency manager.
+In order to add layouts to your project, simply copy-paste corresponding `Layout` file (each of the targets has folder called `Layout` that contains all the related sources). There is no point in adding any dependency manager, since each custom `UICollectionViewLayout` can be more easily added just by dropping the corresponding layout source file into your project. 
 
 # ✈️ Usage
 The next step is to either `programmatically` or via `Storyboard`/`Nib` file connect the layout and override the default one. 
@@ -89,8 +89,14 @@ override func viewDidLoad() {
 
 # 📚 Contents
 
-## Vertical Snap 
-Is a custom flow layout that adds `snapping` behavior to `single column` collection view. Supports both `portrait` and `landscape` layouts. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
+## Snap 
+Is a custom flow layout that adds `snapping` behavior to `single column` collection view. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
+
+- [x] Snapping behavior when scrolling
+- [x] Automatically adjusts the cell sizes
+- [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
+- [x] Portrain & landscape orientations, with customizable `horizontalOrientationDevider` property, which adds an additional row of in the collection view layout
+- [x] Has customazable properties
 
 ### Portrait 
 
@@ -107,21 +113,38 @@ Is a custom flow layout that adds `snapping` behavior to `single column` collect
 
 
 ## Pinterest 
-Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. Supports both `landscape` and `portrait` layouts.
+Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
+
+- [x] Automatically adjusts the cell sizes
+- [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
+- [x] Portrain & landscape orientations
+- [x] Has customazable properties
 
 <p align="center">
     <img src="readme-assets/pinterest.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
 ## Spinner
-Is a custom layout that places collection view cells in a circular fashion with a `snapping behaviour`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
+Is a custom layout that places collection view cells in a circular fashion with a `snapping behavior`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
+
+- [x] Snapping behavior
+- [x] Automatically adjusts the cell sizes
+- [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
+- [x] Portrain & landscape orientations
+- [x] Has customazable properties
 
 <p align="center">
     <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
 </p>
 
 ## Instagrid
-Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization. Supports both `landscape` and `portrait` layouts.
+Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization.
+
+- [x] Snapping behavior
+- [x] Automatically adjusts the cell sizes
+- [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
+- [x] Portrain & landscape orientations
+- [x] Has customazable properties
 
 ### Horizontal 
 <p align="center">
