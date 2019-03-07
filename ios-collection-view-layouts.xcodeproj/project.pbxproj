@@ -572,8 +572,8 @@
 				A90D330720878436001AB348 /* insta-gridTests */,
 				A90D331220878436001AB348 /* insta-gridUITests */,
 				A91B6CB120B31E4D0083837C /* snap-flow */,
-				A98F67CB217223A6006B3B1D /* vertical-snap-flowTests */,
-				A98F67BB21722352006B3B1D /* vertical-snap-flowUITests */,
+				A98F67CB217223A6006B3B1D /* snap-flowTests */,
+				A98F67BB21722352006B3B1D /* snap-flowUITests */,
 				A9623BCB208478BB00E37FFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -672,22 +672,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		A98F67BB21722352006B3B1D /* vertical-snap-flowUITests */ = {
+		A98F67BB21722352006B3B1D /* snap-flowUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A98F67BC21722352006B3B1D /* vertical_snap_flowUITests.swift */,
 				A98F67BE21722352006B3B1D /* Info.plist */,
 			);
-			path = "vertical-snap-flowUITests";
+			path = "snap-flowUITests";
 			sourceTree = "<group>";
 		};
-		A98F67CB217223A6006B3B1D /* vertical-snap-flowTests */ = {
+		A98F67CB217223A6006B3B1D /* snap-flowTests */ = {
 			isa = PBXGroup;
 			children = (
 				A98F67CC217223A6006B3B1D /* vertical_snap_flowTests.swift */,
 				A98F67CE217223A6006B3B1D /* Info.plist */,
 			);
-			path = "vertical-snap-flowTests";
+			path = "snap-flowTests";
 			sourceTree = "<group>";
 		};
 		A99BC3862085D2AE00FF1666 /* spinner */ = {
