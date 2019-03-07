@@ -29,7 +29,7 @@ import UIKit
 
 
 
-class VerticalSnapCollectionViewController: UICollectionViewController {
+class SnapCollectionViewController: UICollectionViewController {
 
     // MARK: - Properties
     
@@ -38,7 +38,7 @@ class VerticalSnapCollectionViewController: UICollectionViewController {
     
     // MARK: - Outlets
     
-    @IBOutlet weak var snapFlowCollectionLayout: VerticalSnapCollectionFlowLayout!
+    @IBOutlet weak var snapFlowCollectionLayout: SnapCollectionFlowLayout!
     
     // MARK: - Lifecycle
     

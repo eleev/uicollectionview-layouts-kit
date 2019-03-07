@@ -43,14 +43,14 @@
 		A91B6CB820B31E4D0083837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB620B31E4D0083837C /* Main.storyboard */; };
 		A91B6CBA20B31E4D0083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CB920B31E4D0083837C /* Assets.xcassets */; };
 		A91B6CBD20B31E4D0083837C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */; };
-		A91B6CE120B31E850083837C /* VerticalSnapCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */; };
+		A91B6CE120B31E850083837C /* SnapCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CE020B31E850083837C /* SnapCollectionFlowLayout.swift */; };
 		A91B6CE220B31F070083837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
 		A91B6CE520B31F0A0083837C /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
 		A91B6CE820B31F0D0083837C /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
 		A91B6CEB20B31F120083837C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
 		A91B6CEE20B31F1B0083837C /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
 		A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
-		A91B6CF820B342DB0083837C /* VerticalSnapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */; };
+		A91B6CF820B342DB0083837C /* SnapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF720B342DB0083837C /* SnapCollectionViewController.swift */; };
 		A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */; };
 		A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */; };
 		A91B6CFE20B4018C0083837C /* VerticalSnapCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */; };
@@ -235,14 +235,14 @@
 		A90D334420879470001AB348 /* InstagridCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridCellAdapter.swift; sourceTree = "<group>"; };
 		A90D335D2087A1CD001AB348 /* insta-grid_vertical.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "insta-grid_vertical.gif"; sourceTree = "<group>"; };
 		A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "insta-grid_horizontal.gif"; sourceTree = "<group>"; };
-		A91B6CB020B31E4D0083837C /* vertical-snap-flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vertical-snap-flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B6CB020B31E4D0083837C /* snap-flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snap-flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91B6CB220B31E4D0083837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A91B6CB720B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A91B6CB920B31E4D0083837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91B6CBC20B31E4D0083837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A91B6CBE20B31E4D0083837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionFlowLayout.swift; sourceTree = "<group>"; };
-		A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionViewController.swift; sourceTree = "<group>"; };
+		A91B6CE020B31E850083837C /* SnapCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		A91B6CF720B342DB0083837C /* SnapCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCollectionViewController.swift; sourceTree = "<group>"; };
 		A91B6CF920B400580083837C /* VerticalSnapCollectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionAdapter.swift; sourceTree = "<group>"; };
 		A91B6CFB20B4018C0083837C /* VerticalSnapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSnapCollectionViewCell.swift; sourceTree = "<group>"; };
 		A91B6CFC20B4018C0083837C /* VerticalSnapCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalSnapCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -280,10 +280,10 @@
 		A9623C382084D13900E37FFD /* ComicsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsCollectionViewController.swift; sourceTree = "<group>"; };
 		A9623C3A2084D6C400E37FFD /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		A9623C3C2084ECE900E37FFD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		A98F67BA21722352006B3B1D /* vertical-snap-flowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vertical-snap-flowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F67BA21722352006B3B1D /* snap-flowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snap-flowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98F67BC21722352006B3B1D /* vertical_snap_flowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vertical_snap_flowUITests.swift; sourceTree = "<group>"; };
 		A98F67BE21722352006B3B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A98F67CA217223A6006B3B1D /* vertical-snap-flowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vertical-snap-flowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F67CA217223A6006B3B1D /* snap-flowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snap-flowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98F67CC217223A6006B3B1D /* vertical_snap_flowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vertical_snap_flowTests.swift; sourceTree = "<group>"; };
 		A98F67CE217223A6006B3B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A99BC3852085D2AE00FF1666 /* spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -478,7 +478,7 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
-		A91B6CB120B31E4D0083837C /* vertical-snap-flow */ = {
+		A91B6CB120B31E4D0083837C /* snap-flow */ = {
 			isa = PBXGroup;
 			children = (
 				A91B6CDE20B31E570083837C /* Core */,
@@ -488,7 +488,7 @@
 				A91B6CBB20B31E4D0083837C /* LaunchScreen.storyboard */,
 				A91B6CBE20B31E4D0083837C /* Info.plist */,
 			);
-			path = "vertical-snap-flow";
+			path = "snap-flow";
 			sourceTree = "<group>";
 		};
 		A91B6CDE20B31E570083837C /* Core */ = {
@@ -505,7 +505,7 @@
 		A91B6CDF20B31E5F0083837C /* Layout */ = {
 			isa = PBXGroup;
 			children = (
-				A91B6CE020B31E850083837C /* VerticalSnapCollectionFlowLayout.swift */,
+				A91B6CE020B31E850083837C /* SnapCollectionFlowLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -513,7 +513,7 @@
 		A91B6CF420B320F20083837C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A91B6CF720B342DB0083837C /* VerticalSnapCollectionViewController.swift */,
+				A91B6CF720B342DB0083837C /* SnapCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -571,7 +571,7 @@
 				A90D32F220878435001AB348 /* insta-grid */,
 				A90D330720878436001AB348 /* insta-gridTests */,
 				A90D331220878436001AB348 /* insta-gridUITests */,
-				A91B6CB120B31E4D0083837C /* vertical-snap-flow */,
+				A91B6CB120B31E4D0083837C /* snap-flow */,
 				A98F67CB217223A6006B3B1D /* vertical-snap-flowTests */,
 				A98F67BB21722352006B3B1D /* vertical-snap-flowUITests */,
 				A9623BCB208478BB00E37FFD /* Products */,
@@ -591,9 +591,9 @@
 				A90D32F120878435001AB348 /* insta-grid.app */,
 				A90D330420878436001AB348 /* insta-gridTests.xctest */,
 				A90D330F20878436001AB348 /* insta-gridUITests.xctest */,
-				A91B6CB020B31E4D0083837C /* vertical-snap-flow.app */,
-				A98F67BA21722352006B3B1D /* vertical-snap-flowUITests.xctest */,
-				A98F67CA217223A6006B3B1D /* vertical-snap-flowTests.xctest */,
+				A91B6CB020B31E4D0083837C /* snap-flow.app */,
+				A98F67BA21722352006B3B1D /* snap-flowUITests.xctest */,
+				A98F67CA217223A6006B3B1D /* snap-flowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -865,9 +865,9 @@
 			productReference = A90D330F20878436001AB348 /* insta-gridUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A91B6CAF20B31E4D0083837C /* vertical-snap-flow */ = {
+		A91B6CAF20B31E4D0083837C /* snap-flow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow" */;
+			buildConfigurationList = A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "snap-flow" */;
 			buildPhases = (
 				A91B6CAC20B31E4D0083837C /* Sources */,
 				A91B6CAD20B31E4D0083837C /* Frameworks */,
@@ -877,9 +877,9 @@
 			);
 			dependencies = (
 			);
-			name = "vertical-snap-flow";
+			name = "snap-flow";
 			productName = "snap-flow-layout";
-			productReference = A91B6CB020B31E4D0083837C /* vertical-snap-flow.app */;
+			productReference = A91B6CB020B31E4D0083837C /* snap-flow.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A9623BC9208478BB00E37FFD /* ios-collection-view-layouts */ = {
@@ -952,9 +952,9 @@
 			productReference = A9623C01208478D900E37FFD /* pinterestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A98F67B921722352006B3B1D /* vertical-snap-flowUITests */ = {
+		A98F67B921722352006B3B1D /* snap-flowUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A98F67C121722352006B3B1D /* Build configuration list for PBXNativeTarget "vertical-snap-flowUITests" */;
+			buildConfigurationList = A98F67C121722352006B3B1D /* Build configuration list for PBXNativeTarget "snap-flowUITests" */;
 			buildPhases = (
 				A98F67B621722352006B3B1D /* Sources */,
 				A98F67B721722352006B3B1D /* Frameworks */,
@@ -966,14 +966,14 @@
 				A98F67C021722352006B3B1D /* PBXTargetDependency */,
 				A98F67D52172243C006B3B1D /* PBXTargetDependency */,
 			);
-			name = "vertical-snap-flowUITests";
+			name = "snap-flowUITests";
 			productName = "vertical-snap-flowUITests";
-			productReference = A98F67BA21722352006B3B1D /* vertical-snap-flowUITests.xctest */;
+			productReference = A98F67BA21722352006B3B1D /* snap-flowUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A98F67C9217223A6006B3B1D /* vertical-snap-flowTests */ = {
+		A98F67C9217223A6006B3B1D /* snap-flowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A98F67D1217223A6006B3B1D /* Build configuration list for PBXNativeTarget "vertical-snap-flowTests" */;
+			buildConfigurationList = A98F67D1217223A6006B3B1D /* Build configuration list for PBXNativeTarget "snap-flowTests" */;
 			buildPhases = (
 				A98F67C6217223A6006B3B1D /* Sources */,
 				A98F67C7217223A6006B3B1D /* Frameworks */,
@@ -985,9 +985,9 @@
 				A98F67D0217223A6006B3B1D /* PBXTargetDependency */,
 				A98F67D721722442006B3B1D /* PBXTargetDependency */,
 			);
-			name = "vertical-snap-flowTests";
+			name = "snap-flowTests";
 			productName = "vertical-snap-flowTests";
-			productReference = A98F67CA217223A6006B3B1D /* vertical-snap-flowTests.xctest */;
+			productReference = A98F67CA217223A6006B3B1D /* snap-flowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A99BC3842085D2AE00FF1666 /* spinner */ = {
@@ -1136,9 +1136,9 @@
 				A90D32F020878435001AB348 /* insta-grid */,
 				A90D330320878436001AB348 /* insta-gridTests */,
 				A90D330E20878436001AB348 /* insta-gridUITests */,
-				A91B6CAF20B31E4D0083837C /* vertical-snap-flow */,
-				A98F67B921722352006B3B1D /* vertical-snap-flowUITests */,
-				A98F67C9217223A6006B3B1D /* vertical-snap-flowTests */,
+				A91B6CAF20B31E4D0083837C /* snap-flow */,
+				A98F67B921722352006B3B1D /* snap-flowUITests */,
+				A98F67C9217223A6006B3B1D /* snap-flowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1344,8 +1344,8 @@
 				A961E15120C0186D0069C29A /* UICollectionView+CustomCellRegistration.swift in Sources */,
 				A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */,
 				A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */,
-				A91B6CE120B31E850083837C /* VerticalSnapCollectionFlowLayout.swift in Sources */,
-				A91B6CF820B342DB0083837C /* VerticalSnapCollectionViewController.swift in Sources */,
+				A91B6CE120B31E850083837C /* SnapCollectionFlowLayout.swift in Sources */,
+				A91B6CF820B342DB0083837C /* SnapCollectionViewController.swift in Sources */,
 				A91B6CB320B31E4D0083837C /* AppDelegate.swift in Sources */,
 				A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */,
 			);
@@ -1496,12 +1496,12 @@
 		};
 		A98F67D52172243C006B3B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A91B6CAF20B31E4D0083837C /* vertical-snap-flow */;
+			target = A91B6CAF20B31E4D0083837C /* snap-flow */;
 			targetProxy = A98F67D42172243C006B3B1D /* PBXContainerItemProxy */;
 		};
 		A98F67D721722442006B3B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A91B6CAF20B31E4D0083837C /* vertical-snap-flow */;
+			target = A91B6CAF20B31E4D0083837C /* snap-flow */;
 			targetProxy = A98F67D621722442006B3B1D /* PBXContainerItemProxy */;
 		};
 		A99BC39A2085D2B000FF1666 /* PBXTargetDependency */ = {
@@ -1724,7 +1724,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/vertical-snap-flow/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/snap-flow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1742,7 +1742,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/vertical-snap-flow/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/snap-flow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2258,7 +2258,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "vertical-snap-flow" */ = {
+		A91B6CDB20B31E4D0083837C /* Build configuration list for PBXNativeTarget "snap-flow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A91B6CD520B31E4D0083837C /* Debug */,
@@ -2312,7 +2312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98F67C121722352006B3B1D /* Build configuration list for PBXNativeTarget "vertical-snap-flowUITests" */ = {
+		A98F67C121722352006B3B1D /* Build configuration list for PBXNativeTarget "snap-flowUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A98F67C221722352006B3B1D /* Debug */,
@@ -2321,7 +2321,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98F67D1217223A6006B3B1D /* Build configuration list for PBXNativeTarget "vertical-snap-flowTests" */ = {
+		A98F67D1217223A6006B3B1D /* Build configuration list for PBXNativeTarget "snap-flowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A98F67D2217223A6006B3B1D /* Debug */,

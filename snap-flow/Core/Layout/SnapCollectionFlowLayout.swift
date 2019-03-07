@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VerticalSnapCollectionFlowLayout: UICollectionViewFlowLayout {
+class SnapCollectionFlowLayout: UICollectionViewFlowLayout {
     
     // MARK: - Properties
     
