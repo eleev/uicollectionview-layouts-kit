@@ -99,10 +99,10 @@ Is a custom flow layout that adds `snapping` behavior to `single column` collect
 - [x] Has customazable properties
 
 #### Vertical Scrolling
-<img src="readme-assets/snap-vertical.gif" width="32%"> <img src="readme-assets/snap-horizontal.gif" width="64%">
+<img src="readme-assets/snap-vertical.gif" width="35.5%"> <img src="readme-assets/snap-horizontal.gif" width="63.5%">
 
 #### Horizontal Scrolling
-<img src="readme-assets/snap-horizontal-portrait.gif" width="32%"> <img src="readme-assets/snap-horizontal-landscape.gif" width="64%">
+<img src="readme-assets/snap-horizontal-portrait.gif" width="35.5%"> <img src="readme-assets/snap-horizontal-landscape.gif" width="63.5%">
 
 ## Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
@@ -112,9 +112,8 @@ Is a custom layout that mimics `Pinterest` layout. Can be customized with a vari
 - [x] Portrain & landscape orientations
 - [x] Has customazable properties
 
-<p align="center">
-    <img src="readme-assets/pinterest.gif" alt="Drawing" style="width: 500px;"/>
-</p>
+<img src="readme-assets/pinterest-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/pinterest-vertical-landscape.gif
+" width="63%">
 
 ## Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behavior`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
@@ -125,9 +124,7 @@ Is a custom layout that places collection view cells in a circular fashion with 
 - [x] Portrain & landscape orientations
 - [x] Has customazable properties
 
-<p align="center">
-    <img src="readme-assets/spinner.gif" alt="Drawing" style="width: 500px;"/>
-</p>
+<img src="readme-assets/spinner-portrait.gif" width="35.5%"> <img src="readme-assets/spinner.gif" width="63%">
 
 ## Instagrid
 Is a custom layout similar to `Instagram`'s feed layout. Has several customization points and a `delegate` protocol for cell size runtime customization.
@@ -138,15 +135,15 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
 - [x] Portrain & landscape orientations
 - [x] Has customazable properties
 
-### Horizontal 
+#### Horizontal 
 <p align="center">
-    <img src="readme-assets/insta-grid_horizontal.gif" alt="Drawing" style="width: 500px;"/>
+    <img src="readme-assets/insta-grid_horizontal.gif" alt="Drawing" style="width: 600px;"/>
 </p>
 
-### Vertical
-<p align="center">
-    <img src="readme-assets/insta-grid_vertical.gif" alt="Drawing" style="width: 500px;"/>
-</p>
+#### Vertical
+<img src="readme-assets/instagrid-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/instagrid-vertical-landscape.gif
+" width="63%">
+
 
 # 👨‍💻 Author 
 [Astemir Eleev](https://github.com/jVirus)
