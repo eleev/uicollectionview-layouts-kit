@@ -88,6 +88,7 @@ override func viewDidLoad() {
 ```
 
 # 📚 Contents
+> **Please wait while the `.gif` files are loading (each of them is around 10Mb)**
 
 ## Snap 
 Is a custom flow layout that adds `snapping` behavior to `single column` collection view. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
@@ -112,7 +113,7 @@ Is a custom layout that mimics `Pinterest` layout. Can be customized with a vari
 - [x] Portrain & landscape orientations
 - [x] Has customazable properties
 
-<img src="readme-assets/pinterest-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/pinterest-vertical-landscape.gif" width="63%">
+<img src="readme-assets/pinterest-vertical-portrait.gif" width="35%"> <img src="readme-assets/pinterest-vertical-landscape.gif" width="64%">
 
 ## Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behavior`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
