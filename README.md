@@ -112,8 +112,7 @@ Is a custom layout that mimics `Pinterest` layout. Can be customized with a vari
 - [x] Portrain & landscape orientations
 - [x] Has customazable properties
 
-<img src="readme-assets/pinterest-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/pinterest-vertical-landscape.gif
-" width="63%">
+<img src="readme-assets/pinterest-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/pinterest-vertical-landscape.gif" width="63%">
 
 ## Spinner
 Is a custom layout that places collection view cells in a circular fashion with a `snapping behavior`. The spinning `circle radius`, `cell size` and `cell decoration view` can be customized. Supports both `landscape` and `portrait` layouts.
@@ -141,8 +140,7 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
 </p>
 
 #### Vertical
-<img src="readme-assets/instagrid-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/instagrid-vertical-landscape.gif
-" width="63%">
+<img src="readme-assets/instagrid-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/instagrid-vertical-landscape.gif" width="63%">
 
 
 # 👨‍💻 Author 
