@@ -98,19 +98,11 @@ Is a custom flow layout that adds `snapping` behavior to `single column` collect
 - [x] Portrain & landscape orientations, with customizable `horizontalOrientationDevider` property, which adds an additional row of in the collection view layout
 - [x] Has customazable properties
 
-### Portrait 
+#### Vertical Scrolling
+<img src="readme-assets/snap-vertical.gif" width="32%"> <img src="readme-assets/snap-horizontal.gif" width="64%">
 
-<p align="center">
-    <img src="readme-assets/snap-vertical.gif" alt="Drawing" style="width: 200px;"/>
-</p>
-
-
-### Landscape 
-
-<p align="center">
-    <img src="readme-assets/snap-horizontal.gif" alt="Drawing" style="width: 500px;"/>
-</p>
-
+#### Horizontal Scrolling
+<img src="readme-assets/snap-horizontal-portrait.gif" width="32%"> <img src="readme-assets/snap-horizontal-landscape.gif" width="64%">
 
 ## Pinterest 
 Is a custom layout that mimics `Pinterest` layout. Can be customized with a variable `number of rows` and `custom cells`. 
