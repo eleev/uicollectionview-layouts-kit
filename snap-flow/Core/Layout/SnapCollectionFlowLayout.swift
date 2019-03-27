@@ -71,6 +71,8 @@ class SnapCollectionFlowLayout: UICollectionViewFlowLayout {
         case .vertical:
             centerOffset = collectionView!.bounds.size.height / 2
             offsetWithCenter = proposedContentOffset.y + centerOffset
+        @unknown default:
+            fatalError("Unsupported scroll direction. Please contact the developer to resolve this issue")
         }
 
         guard let unwrappedLayoutAttributes = layoutAttributes else {
@@ -92,6 +94,8 @@ class SnapCollectionFlowLayout: UICollectionViewFlowLayout {
                     abs($0.center.y - offsetWithCenter) < abs($1.center.y - offsetWithCenter) }
                 .first ?? UICollectionViewLayoutAttributes()
             return CGPoint(x: 0, y: closestAttribute.center.y - centerOffset)
+        @unknown default:
+            fatalError("Unsupported scroll direction. Please contact the developer to resolve this issue")
         }
     }
     

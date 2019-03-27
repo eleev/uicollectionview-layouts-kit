@@ -19,7 +19,7 @@ public extension UICollectionView {
     /// - Parameters:
     ///   - name: is a name of a UICollectionView that is going to be registered (hint: use UICollectionView.self as a parameter in order to avoid any misspellings)
     ///   - id: is a reusable identifier for a UICollectionView cell
-    public func register(cell name: UICollectionViewCell.Type, reusableId id: String) {
+    func register(cell name: UICollectionViewCell.Type, reusableId id: String) {
         let nibName = String(describing: name)
         let bundle = Bundle(identifier: nibName)
         let cellNib = UINib(nibName: nibName, bundle: bundle)
