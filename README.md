@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-Swift_5.0-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 27/March/2019.**
+**Last Update: 14/July/2019.**
 
 ![](cover-uickit.png)
 
@@ -89,6 +89,18 @@ override func viewDidLoad() {
 
 # 📚 Contents
 > **Please wait while the `.gif` files are loading (each of them is around 10Mb)**
+
+## Safari iPhone
+It's a custom layout that mimics `UICollectionView` layout that can be seen on `iPhones` in portrait orientation. The layout only supports portrait orientation, but can be adjusted for landscape orientation and even for n-column layout, that can be used, for example on wider screens, such as `iPads`.
+
+- [x] Perspective transformation that reveal cell's content while scrolling up and down
+- [x] Automatically adjusts contents to fit the current screen
+- [x] Portrait orientation 
+- [x] Only for `iPhones`
+- [x] Adjustable: various properties can be changed
+- [x] Scalable: can be adopted to support `iPad` and various, sophisticated perspective transformation while scrolling
+
+<img src="readme-assets/safari-iphone-down.gif" width="49.5%"> <img src="readme-assets/safari-iphone-down.gif" width="49.5%">
 
 ## Snap 
 Is a custom flow layout that adds `snapping` behavior to `single column` collection view. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
