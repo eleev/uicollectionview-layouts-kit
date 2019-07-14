@@ -100,7 +100,7 @@ It's a custom layout that mimics `UICollectionView` layout that can be seen on `
 - [x] Adjustable: various properties can be changed
 - [x] Scalable: can be adopted to support `iPad` and various, sophisticated perspective transformation while scrolling
 
-<img src="readme-assets/safari-iphone-down.gif" width="49.5%"> <img src="readme-assets/safari-iphone-down.gif" width="49.5%">
+<img src="readme-assets/safari-iphone-down.gif" width="49.5%"> <img src="readme-assets/safari-iphone-up.gif" width="49.5%">
 
 ## Snap 
 Is a custom flow layout that adds `snapping` behavior to `single column` collection view. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
