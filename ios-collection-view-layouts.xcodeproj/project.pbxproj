@@ -97,6 +97,9 @@
 		A99BC3CE2085DA4400FF1666 /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
 		A99BC3D32085E02900FF1666 /* CircularLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BC3D22085E02900FF1666 /* CircularLayout.swift */; };
 		A99BC3DB2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BC3DA2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift */; };
+		A9B3EBBE22DB8B6D0077D111 /* safari-iphone-down.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9B3EBBC22DB8B6C0077D111 /* safari-iphone-down.gif */; };
+		A9B3EBBF22DB8B6D0077D111 /* safari-iphone-up.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9B3EBBD22DB8B6D0077D111 /* safari-iphone-up.gif */; };
+		A9B3EBC322DB8BC70077D111 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9B3EBC222DB8BC70077D111 /* README.md */; };
 		A9E98EBF22C90EC0007EB38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */; };
 		A9E98EC122C90EC0007EB38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EC022C90EC0007EB38E /* ViewController.swift */; };
 		A9E98EC422C90EC0007EB38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E98EC222C90EC0007EB38E /* Main.storyboard */; };
@@ -194,6 +197,9 @@
 		A99BC3CC2085D90900FF1666 /* CircularCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCellAdapter.swift; sourceTree = "<group>"; };
 		A99BC3D22085E02900FF1666 /* CircularLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLayout.swift; sourceTree = "<group>"; };
 		A99BC3DA2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		A9B3EBBC22DB8B6C0077D111 /* safari-iphone-down.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "safari-iphone-down.gif"; sourceTree = "<group>"; };
+		A9B3EBBD22DB8B6D0077D111 /* safari-iphone-up.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "safari-iphone-up.gif"; sourceTree = "<group>"; };
+		A9B3EBC222DB8BC70077D111 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9E98EBC22C90EC0007EB38E /* safari-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safari-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E98EC022C90EC0007EB38E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -372,6 +378,8 @@
 		A94DD903208760520009F0A3 /* readme-assets */ = {
 			isa = PBXGroup;
 			children = (
+				A9B3EBBC22DB8B6C0077D111 /* safari-iphone-down.gif */,
+				A9B3EBBD22DB8B6D0077D111 /* safari-iphone-up.gif */,
 				A9119B6B2087A49C007CB2D5 /* insta-grid_horizontal.gif */,
 				A9663D4D224B8C5C00F248DA /* instagrid-vertical-landscape.gif */,
 				A9663D4F224B8C5C00F248DA /* instagrid-vertical-portrait.gif */,
@@ -401,8 +409,9 @@
 		A9623BC1208478BB00E37FFD = {
 			isa = PBXGroup;
 			children = (
-				A94DD903208760520009F0A3 /* readme-assets */,
 				A9623C3C2084ECE900E37FFD /* .gitignore */,
+				A9B3EBC222DB8BC70077D111 /* README.md */,
+				A94DD903208760520009F0A3 /* readme-assets */,
 				A9623BCC208478BB00E37FFD /* collection-layout-ios */,
 				A9623BE4208478D900E37FFD /* pinterest */,
 				A99BC3862085D2AE00FF1666 /* spinner */,
@@ -846,17 +855,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B3EBBF22DB8B6D0077D111 /* safari-iphone-up.gif in Resources */,
 				A9663D55224B8C5C00F248DA /* spinner-portrait.gif in Resources */,
 				A9663D56224B8C5C00F248DA /* pinterest-vertical-landscape.gif in Resources */,
 				A9663D52224B8C5C00F248DA /* snap-horizontal-landscape.gif in Resources */,
 				A9623BD8208478BB00E37FFD /* LaunchScreen.storyboard in Resources */,
 				A9663D51224B8C5C00F248DA /* pinterest-vertical-portrait.gif in Resources */,
+				A9B3EBBE22DB8B6D0077D111 /* safari-iphone-down.gif in Resources */,
 				A9663D5B224B8C5C00F248DA /* snap-horizontal.gif in Resources */,
 				A9623C19208478F200E37FFD /* Comics.xcassets in Resources */,
 				A9663D58224B8C5C00F248DA /* instagrid-vertical-landscape.gif in Resources */,
 				A9663D53224B8C5C00F248DA /* snap-horizontal-portrait.gif in Resources */,
 				A9623C17208478F200E37FFD /* ComicsData.plist in Resources */,
 				A9663D54224B8C5C00F248DA /* snap-vertical.gif in Resources */,
+				A9B3EBC322DB8BC70077D111 /* README.md in Resources */,
 				A9663D5A224B8C5C00F248DA /* instagrid-vertical-portrait.gif in Resources */,
 				A9623BD3208478BB00E37FFD /* Main.storyboard in Resources */,
 				A9623C18208478F200E37FFD /* Assets.xcassets in Resources */,
