@@ -97,6 +97,27 @@
 		A99BC3CE2085DA4400FF1666 /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
 		A99BC3D32085E02900FF1666 /* CircularLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BC3D22085E02900FF1666 /* CircularLayout.swift */; };
 		A99BC3DB2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BC3DA2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift */; };
+		A9E98EBF22C90EC0007EB38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */; };
+		A9E98EC122C90EC0007EB38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EC022C90EC0007EB38E /* ViewController.swift */; };
+		A9E98EC422C90EC0007EB38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E98EC222C90EC0007EB38E /* Main.storyboard */; };
+		A9E98EC922C90EC1007EB38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E98EC722C90EC1007EB38E /* LaunchScreen.storyboard */; };
+		A9E98ECE22C90EE3007EB38E /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C16208478F200E37FFD /* Comics.swift */; };
+		A9E98ECF22C90EE5007EB38E /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C302084CD3200E37FFD /* ComicsManager.swift */; };
+		A9E98ED022C90EEE007EB38E /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9623C12208478F200E37FFD /* ComicsData.plist */; };
+		A9E98ED122C90EEE007EB38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C13208478F200E37FFD /* Assets.xcassets */; };
+		A9E98ED322C90EF3007EB38E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9623C292084C2F800E37FFD /* DesignableView.swift */; };
+		A9E98ED422C90EF8007EB38E /* UICollectionView+CustomCellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961E14620C0185F0069C29A /* UICollectionView+CustomCellRegistration.swift */; };
+		A9E98EDB22C90F5C007EB38E /* SafariCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EDA22C90F5C007EB38E /* SafariCollectionViewController.swift */; };
+		A9E98EDD22C9102D007EB38E /* SafariPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EDC22C9102D007EB38E /* SafariPageCell.swift */; };
+		A9E98EDF22C910D3007EB38E /* SafariCellAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EDE22C910D3007EB38E /* SafariCellAdapter.swift */; };
+		A9E98EE222C911A6007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE322C911AE007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE422C911B1007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE522C911B1007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE622C911B2007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE722C911B2007EB38E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */; };
+		A9E98EE922C912B7007EB38E /* SafariIPhoneCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E98EE822C912B7007EB38E /* SafariIPhoneCollectionViewLayout.swift */; };
+		A9E98EEA22C9181F007EB38E /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9623C14208478F200E37FFD /* Comics.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,6 +194,17 @@
 		A99BC3CC2085D90900FF1666 /* CircularCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCellAdapter.swift; sourceTree = "<group>"; };
 		A99BC3D22085E02900FF1666 /* CircularLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLayout.swift; sourceTree = "<group>"; };
 		A99BC3DA2086119F00FF1666 /* CircularCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		A9E98EBC22C90EC0007EB38E /* safari-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safari-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E98EC022C90EC0007EB38E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E98EC322C90EC0007EB38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E98EC822C90EC1007EB38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E98ECA22C90EC1007EB38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E98EDA22C90F5C007EB38E /* SafariCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCollectionViewController.swift; sourceTree = "<group>"; };
+		A9E98EDC22C9102D007EB38E /* SafariPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariPageCell.swift; sourceTree = "<group>"; };
+		A9E98EDE22C910D3007EB38E /* SafariCellAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCellAdapter.swift; sourceTree = "<group>"; };
+		A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		A9E98EE822C912B7007EB38E /* SafariIPhoneCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariIPhoneCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +237,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A99BC3822085D2AE00FF1666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E98EB922C90EC0007EB38E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,6 +408,7 @@
 				A99BC3862085D2AE00FF1666 /* spinner */,
 				A90D32F220878435001AB348 /* insta-grid */,
 				A91B6CB120B31E4D0083837C /* snap-flow */,
+				A9E98EBD22C90EC0007EB38E /* safari-iphone */,
 				A9623BCB208478BB00E37FFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -381,6 +421,7 @@
 				A99BC3852085D2AE00FF1666 /* spinner.app */,
 				A90D32F120878435001AB348 /* insta-grid.app */,
 				A91B6CB020B31E4D0083837C /* snap-flow.app */,
+				A9E98EBC22C90EC0007EB38E /* safari-iphone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -388,6 +429,7 @@
 		A9623BCC208478BB00E37FFD /* collection-layout-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A9E98EE022C9119C007EB38E /* Protocols */,
 				A961E14520C018440069C29A /* Extensions */,
 				A9623C282084C2EE00E37FFD /* View */,
 				A9623C11208478F200E37FFD /* Assets */,
@@ -542,6 +584,70 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		A9E98EBD22C90EC0007EB38E /* safari-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98ED522C90F0E007EB38E /* Core */,
+				A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */,
+				A9E98EC022C90EC0007EB38E /* ViewController.swift */,
+				A9E98EC222C90EC0007EB38E /* Main.storyboard */,
+				A9E98EC722C90EC1007EB38E /* LaunchScreen.storyboard */,
+				A9E98ECA22C90EC1007EB38E /* Info.plist */,
+			);
+			path = "safari-iphone";
+			sourceTree = "<group>";
+		};
+		A9E98ED522C90F0E007EB38E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98ED922C90F25007EB38E /* Layout */,
+				A9E98ED822C90F1E007EB38E /* Controller */,
+				A9E98ED722C90F1A007EB38E /* Cell */,
+				A9E98ED622C90F15007EB38E /* Adapter */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A9E98ED622C90F15007EB38E /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98EDE22C910D3007EB38E /* SafariCellAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		A9E98ED722C90F1A007EB38E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98EDC22C9102D007EB38E /* SafariPageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A9E98ED822C90F1E007EB38E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98EDA22C90F5C007EB38E /* SafariCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9E98ED922C90F25007EB38E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98EE822C912B7007EB38E /* SafariIPhoneCollectionViewLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		A9E98EE022C9119C007EB38E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98EE122C911A6007EB38E /* ReuseIdentifiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -630,13 +736,30 @@
 			productReference = A99BC3852085D2AE00FF1666 /* spinner.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A9E98EBB22C90EC0007EB38E /* safari-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E98ECD22C90EC1007EB38E /* Build configuration list for PBXNativeTarget "safari-iphone" */;
+			buildPhases = (
+				A9E98EB822C90EC0007EB38E /* Sources */,
+				A9E98EB922C90EC0007EB38E /* Frameworks */,
+				A9E98EBA22C90EC0007EB38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "safari-iphone";
+			productName = "safari-iphone";
+			productReference = A9E98EBC22C90EC0007EB38E /* safari-iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A9623BC2208478BB00E37FFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Astemir Eleev";
 				TargetAttributes = {
@@ -660,6 +783,9 @@
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 1020;
 					};
+					A9E98EBB22C90EC0007EB38E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = A9623BC5208478BB00E37FFD /* Build configuration list for PBXProject "ios-collection-view-layouts" */;
@@ -680,6 +806,7 @@
 				A99BC3842085D2AE00FF1666 /* spinner */,
 				A90D32F020878435001AB348 /* insta-grid */,
 				A91B6CAF20B31E4D0083837C /* snap-flow */,
+				A9E98EBB22C90EC0007EB38E /* safari-iphone */,
 			);
 		};
 /* End PBXProject section */
@@ -766,6 +893,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9E98EBA22C90EC0007EB38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E98EC922C90EC1007EB38E /* LaunchScreen.storyboard in Resources */,
+				A9E98EEA22C9181F007EB38E /* Comics.xcassets in Resources */,
+				A9E98ED022C90EEE007EB38E /* ComicsData.plist in Resources */,
+				A9E98EC422C90EC0007EB38E /* Main.storyboard in Resources */,
+				A9E98ED122C90EEE007EB38E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -774,6 +913,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A961E14E20C0186B0069C29A /* UICollectionView+CustomCellRegistration.swift in Sources */,
+				A9E98EE422C911B1007EB38E /* ReuseIdentifiable.swift in Sources */,
 				A90D334020879115001AB348 /* InstagridCollectionViewCell.swift in Sources */,
 				A90D332220878452001AB348 /* DesignableView.swift in Sources */,
 				A90D333420878576001AB348 /* InstagridLayout.swift in Sources */,
@@ -796,6 +936,7 @@
 				A91B6CFD20B4018C0083837C /* VerticalSnapCollectionViewCell.swift in Sources */,
 				A91B6CEF20B31F1B0083837C /* ComicsManager.swift in Sources */,
 				A91B6CE120B31E850083837C /* SnapCollectionFlowLayout.swift in Sources */,
+				A9E98EE322C911AE007EB38E /* ReuseIdentifiable.swift in Sources */,
 				A91B6CF820B342DB0083837C /* SnapCollectionViewController.swift in Sources */,
 				A91B6CB320B31E4D0083837C /* AppDelegate.swift in Sources */,
 				A91B6CFA20B400580083837C /* VerticalSnapCollectionAdapter.swift in Sources */,
@@ -807,6 +948,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9623C2A2084C2F800E37FFD /* DesignableView.swift in Sources */,
+				A9E98EE722C911B2007EB38E /* ReuseIdentifiable.swift in Sources */,
 				A9623BD0208478BB00E37FFD /* ViewController.swift in Sources */,
 				A961E14720C0185F0069C29A /* UICollectionView+CustomCellRegistration.swift in Sources */,
 				A9623BCE208478BB00E37FFD /* AppDelegate.swift in Sources */,
@@ -825,6 +967,7 @@
 				A9623C352084CDE500E37FFD /* ComicsManager.swift in Sources */,
 				A9623C2F2084CCC400E37FFD /* ComicCellAdapter.swift in Sources */,
 				A9623C3B2084D6C400E37FFD /* PinterestLayout.swift in Sources */,
+				A9E98EE622C911B2007EB38E /* ReuseIdentifiable.swift in Sources */,
 				A9623BE6208478D900E37FFD /* AppDelegate.swift in Sources */,
 				A9623C322084CDE100E37FFD /* Comics.swift in Sources */,
 				A9623C392084D13900E37FFD /* ComicsCollectionViewController.swift in Sources */,
@@ -836,6 +979,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A961E14920C018680069C29A /* UICollectionView+CustomCellRegistration.swift in Sources */,
+				A9E98EE522C911B1007EB38E /* ReuseIdentifiable.swift in Sources */,
 				A99BC3BC2085D2E000FF1666 /* DesignableView.swift in Sources */,
 				A99BC3C82085D61900FF1666 /* CircularCollectionViewCell.swift in Sources */,
 				A99BC3D32085E02900FF1666 /* CircularLayout.swift in Sources */,
@@ -845,6 +989,24 @@
 				A99BC3CB2085D78700FF1666 /* CircularCollectionViewController.swift in Sources */,
 				A99BC3882085D2AE00FF1666 /* AppDelegate.swift in Sources */,
 				A99BC3B92085D2DB00FF1666 /* Comics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E98EB822C90EC0007EB38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E98EC122C90EC0007EB38E /* ViewController.swift in Sources */,
+				A9E98EBF22C90EC0007EB38E /* AppDelegate.swift in Sources */,
+				A9E98EDD22C9102D007EB38E /* SafariPageCell.swift in Sources */,
+				A9E98EDB22C90F5C007EB38E /* SafariCollectionViewController.swift in Sources */,
+				A9E98ED422C90EF8007EB38E /* UICollectionView+CustomCellRegistration.swift in Sources */,
+				A9E98EE922C912B7007EB38E /* SafariIPhoneCollectionViewLayout.swift in Sources */,
+				A9E98ECE22C90EE3007EB38E /* Comics.swift in Sources */,
+				A9E98EE222C911A6007EB38E /* ReuseIdentifiable.swift in Sources */,
+				A9E98ED322C90EF3007EB38E /* DesignableView.swift in Sources */,
+				A9E98ECF22C90EE5007EB38E /* ComicsManager.swift in Sources */,
+				A9E98EDF22C910D3007EB38E /* SafariCellAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,6 +1089,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A99BC3912085D2AF00FF1666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E98EC222C90EC0007EB38E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E98EC322C90EC0007EB38E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E98EC722C90EC1007EB38E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E98EC822C90EC1007EB38E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1232,6 +1410,45 @@
 			};
 			name = Release;
 		};
+		A9E98ECB22C90EC1007EB38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "safari-iphone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.safari-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9E98ECC22C90EC1007EB38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "safari-iphone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.safari-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1285,6 +1502,15 @@
 			buildConfigurations = (
 				A99BC3AA2085D2B000FF1666 /* Debug */,
 				A99BC3AB2085D2B000FF1666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E98ECD22C90EC1007EB38E /* Build configuration list for PBXNativeTarget "safari-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E98ECB22C90EC1007EB38E /* Debug */,
+				A9E98ECC22C90EC1007EB38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
