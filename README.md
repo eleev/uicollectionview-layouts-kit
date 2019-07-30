@@ -2,9 +2,10 @@
 
 [![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.0-orange.svg)]()
+[![CustomLayouts](https://img.shields.io/badge/custom_layouts-6-green.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 14/July/2019.**
+**Last Update: 30/July/2019.**
 
 ![](cover-uickit.png)
 
