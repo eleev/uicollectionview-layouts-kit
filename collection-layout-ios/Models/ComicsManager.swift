@@ -17,7 +17,7 @@ struct ComicsManager {
     
     // MARK: - Methods
     
-    static func covers() -> [Comics] {
+    static func covers(duplicationFactor: Int = 0) -> [Comics] {
         var covers = [Comics]()
         
         guard let url = Bundle.main.url(forResource: dataSource, withExtension: type), let coverDict = NSArray(contentsOf: url) as? [[String : String]] else {
@@ -30,6 +30,10 @@ struct ComicsManager {
             if let comicCover = Comics(dictionary: dictPair) {
                 covers += [comicCover]
             }
+        }
+        
+        for _ in 0...duplicationFactor {
+            covers += covers
         }
         
         return covers
