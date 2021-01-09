@@ -225,6 +225,7 @@
 		A9B3EBBC22DB8B6C0077D111 /* safari-iphone-down.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "safari-iphone-down.gif"; sourceTree = "<group>"; };
 		A9B3EBBD22DB8B6D0077D111 /* safari-iphone-up.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "safari-iphone-up.gif"; sourceTree = "<group>"; };
 		A9B3EBC222DB8BC70077D111 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9DA9CCF25AA00D700A4DDD7 /* stack-ipad-landscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "stack-ipad-landscape.gif"; sourceTree = "<group>"; };
 		A9E98EBC22C90EC0007EB38E /* safari-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safari-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E98EBE22C90EC0007EB38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E98EC322C90EC0007EB38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -420,6 +421,7 @@
 				A9663D48224B8C5C00F248DA /* snap-horizontal-portrait.gif */,
 				A9663D50224B8C5C00F248DA /* snap-horizontal.gif */,
 				A9663D49224B8C5C00F248DA /* snap-vertical.gif */,
+				A9DA9CCF25AA00D700A4DDD7 /* stack-ipad-landscape.gif */,
 				A9663D4A224B8C5C00F248DA /* spinner-portrait.gif */,
 				A9663D4E224B8C5C00F248DA /* spinner.gif */,
 				A94DD905208760690009F0A3 /* spinner.gif */,
