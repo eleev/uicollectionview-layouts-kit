@@ -5,7 +5,7 @@
 [![CustomLayouts](https://img.shields.io/badge/custom_layouts-6-green.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 05/January/2021.**
+**Last Update: 09/January/2021.**
 
 ![](cover-uickit.png)
 
@@ -103,13 +103,23 @@ It's a custom layout that mimics `UICollectionView` layout that can be seen on `
 
 <img src="readme-assets/safari-iphone-down.gif" width="39.5%"> <img src="readme-assets/safari-iphone-up.gif" width="39.5%">
 
+## Stack
+Is a custom layout that places the collection view items on top of each other - just as a stack of books on a table, observed from the top-to-bottom perspective.  
+
+- [x] Snapping behavior when swiping between items
+- [x] Automatically adjusts the cell sizes  
+- [x] Portrait & landscape orientations
+- [x] Customizable
+
+<img src="readme-assets/stack-ipad-landscape.gif" width="99%"> 
+
 ## Snap 
 Is a custom flow layout that adds `snapping` behavior to `single column` collection view. `Landscape` layout changes the number of `columns` to `two` - in order to more ergonomically fill in the horizontal space. 
 
 - [x] Snapping behavior when scrolling
 - [x] Automatically adjusts the cell sizes
 - [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
-- [x] Portrain & landscape orientations, with customizable `horizontalOrientationDevider` property, which adds an additional row of in the collection view layout
+- [x] Portrait & landscape orientations, with customizable `horizontalOrientationDevider` property, which adds an additional row of in the collection view layout
 - [x] Has customazable properties
 
 #### Vertical Scrolling
@@ -123,7 +133,7 @@ Is a custom layout that mimics `Pinterest` layout. Can be customized with a vari
 
 - [x] Automatically adjusts the cell sizes
 - [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
-- [x] Portrain & landscape orientations
+- [x] Portrait & landscape orientations
 - [x] Has customazable properties
 
 <img src="readme-assets/pinterest-vertical-portrait.gif" width="35%"> <img src="readme-assets/pinterest-vertical-landscape.gif" width="64%">
@@ -134,7 +144,7 @@ Is a custom layout that places collection view cells in a circular fashion with 
 - [x] Snapping behavior
 - [x] Automatically adjusts the cell sizes
 - [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
-- [x] Portrain & landscape orientations
+- [x] Portrait & landscape orientations
 - [x] Has customazable properties
 
 <img src="readme-assets/spinner-portrait.gif" width="35.5%"> <img src="readme-assets/spinner.gif" width="63%">
@@ -145,7 +155,7 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
 - [x] Snapping behavior
 - [x] Automatically adjusts the cell sizes
 - [x] Supports both scrolling directions e.g. `.vertical` and `.horizontal`
-- [x] Portrain & landscape orientations
+- [x] Portrait & landscape orientations
 - [x] Has customazable properties
 
 #### Horizontal 
