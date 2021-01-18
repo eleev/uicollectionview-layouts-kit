@@ -3,9 +3,11 @@
 [![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.3-orange.svg)]()
 [![CustomLayouts](https://img.shields.io/badge/custom_layouts-6-green.svg)]()
+[![Last Commit](https://img.shields.io/github/last-commit/jvirus/uicollectionview-layouts-kit)]()
+[![NLOC](https://img.shields.io/tokei/lines/github/jvirus/uicollectionview-layouts-kit)]()
+[![Contributors](https://img.shields.io/github/contributors/jvirus/uicollectionview-layouts-kit)]()
+[![Repo Size](https://img.shields.io/github/repo-size/jvirus/uicollectionview-layouts-kit)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-
-**Last Update: 09/January/2021.**
 
 ![](cover-uickit.png)
 
