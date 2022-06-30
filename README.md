@@ -168,6 +168,8 @@ Is a custom layout similar to `Instagram`'s feed layout. Has several customizati
 #### Vertical
 <img src="readme-assets/instagrid-vertical-portrait.gif" width="35.5%"> <img src="readme-assets/instagrid-vertical-landscape.gif" width="63%">
 
+# 🤩 Stargazers
+[![Stargazers over time](https://starchart.cc/jVirus/uicollectionview-layouts-kit.svg)](https://starchart.cc/jVirus/uicollectionview-layouts-kit)
 
 # 👨‍💻 Author 
 [Astemir Eleev](https://github.com/jVirus)
