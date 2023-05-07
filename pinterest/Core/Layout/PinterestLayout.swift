@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol PinterestLayoutDelegate: class {
+protocol PinterestLayoutDelegate: AnyObject {
     func collectionView(_ collectionView:UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat
 }
 
