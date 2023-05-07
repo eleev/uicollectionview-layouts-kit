@@ -9,7 +9,7 @@
 [![Repo Size](https://img.shields.io/github/repo-size/jvirus/uicollectionview-layouts-kit)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-![](cover-uickit.png)
+![](header.jpeg)
 
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
